@@ -8,6 +8,7 @@ webURL: "http://www.apartments.com/georgetown-apartments-waukegan-il/yq9x2jv/ " 
 bed: "1 bed",
 area: "700 to 800sqft", 
 space: 650,
+details: "currently 1 opening,  right next to lewis produce.  updated 4.1",
   
 elect: "yes",
 gas: "yes" ,
@@ -25,6 +26,7 @@ webURL: "http://www.apartments.com/georgetown-apartments-waukegan-il/yq9x2jv/ ",
 bed: "1 bed",
 area: "700 to 800sqft", 
 space: 700,
+details: "advertises 675 but is actually 690, entire apartment includeing stove is electric.",
   
 elect: "yes",
 gas: "yes",
@@ -46,6 +48,7 @@ space: 475,
 elect: "yes",
 gas: "yes",
 water: "yes",
+details: "advertises 675 but is actually 690, entire apartment includeing stove is electric.",
  
 laundry: "no",
 parking: "yes",
@@ -63,9 +66,10 @@ space: 575,
 elect: "no",
 gas: "no",
 water: "yes",      
- 
+details: "advertises 675 but is actually 690,  currently have 1 april early may another 690entire apartment includeing stove is electric.", 
+
 laundry: "no",
-parking: "no",
+parking: "yes",
 
 apMonthCost:0,
 },
@@ -73,9 +77,10 @@ apMonthCost:0,
 name: "Cinnamon Lake Towers" ,
 address: "2701 W Glen Flora Ave, Waukegan, IL 60085 - Northeast Lake County" ,
 webURL: "http://www.apartments.com/cinnamon-lake-towers-waukegan-il/51ghkyq/ " ,
-space: 575,
+space: 690,
 bed: "1 bed" ,
 area: "633 Sq Ft - 704 Sq Ft" ,
+details: "advertises 675 but is actually 690,  currently have 1 april early may another 690entire apartment includeing stove is electric.",
    
 elect: "no",
 gas: "no",
@@ -86,23 +91,7 @@ parking: "no",
 
 apMonthCost:0,
 },
-{
-name: "Cinnamon Lake Towers" ,
-address: "2701 W Glen Flora Ave, Waukegan, IL 60085 - Northeast Lake County" ,
-webURL: "http://www.apartments.com/cinnamon-lake-towers-waukegan-il/51ghkyq/ " ,
-space: 595,
-bed: "1 bed" ,
-area: "633 Sq Ft - 704 Sq Ft" ,
-   
-elect: "no",
-gas: "no",
-water:  "yes" ,       
- 
-laundry: "no",
-parking: "no",
 
-apMonthCost:0,
-},
 {
 name: "Woodstone Village Apartments" ,
 address: "1501 Lorelei Dr, Zion, IL 60099 - Northeast Lake County" ,
@@ -110,9 +99,10 @@ webURL: " http://www.apartments.com/woodstone-village-apartments-zion-il/pdpy31v
 bed: "1 bed" ,
 area: "645sqft" ,
 space: 610,
+details: "call may or june for 1 bedroom ",  
   
 elect: "no" ,
-gas: "yes" ,
+gas: "no" ,
 water:  "yes" ,
 garbage: "yes" ,
  
@@ -130,7 +120,7 @@ area: "695sqft" ,
 space: 675,
   
 elect: "no" ,
-gas: "yes" ,
+gas: "no" ,
 water:  "yes" ,
 garbage: "yes" ,
  
@@ -273,7 +263,7 @@ space: 750,
 bed: "2 Bd",
 area: "1000",
   
-elect: "TBD",
+elect: "tbd",
 gas: "TBD",
 water:  "TBD",
 laundry:  "yes",
@@ -298,4 +288,186 @@ laundry:  "yes",
 parking: "yes",
 
 apMonthCost:0,
-}];
+},
+  {
+name: "onan place apartments" ,
+address: "waukegan, il" ,
+webURL: "http://www.forrent.com/apartment-community-profile/1000060882.php" ,
+bed: "1 bed",
+area: "612sqft", 
+space: 675,
+details: "all ecectric, fit center, walk incloset underground parking, right off of grand, neweer building build in 2015",
+  
+elect: "tbd",
+gas: "tbd" ,
+water: "tbd" ,
+ 
+laundry: "no",
+parking: "yes",
+
+apMonthCost:0,
+},
+  {
+name: "King's court" ,
+address: "2801 grandville ave waukegan, il" ,
+webURL: "http://www.forrent.com/apartment-community-profile/1034151.php" ,
+bed: "1 bed",
+area: "800sqft", 
+space: 699,
+details: "pool,no pet policy, need make between  make no more then $38,000, no pet policy",
+  
+elect: "no",
+gas: "yes" ,
+water: "yes" ,
+ 
+laundry: "yes",
+parking: "yes",
+
+apMonthCost:0,
+},
+    {
+name: "little fort court" ,
+address: "waukegan, il" ,
+webURL: "http://www.forrent.com/apartment-community-profile/1034247.php" ,
+bed: "1 bed",
+area: " tbd sqft", 
+space: 599,
+details: "free gas heat",
+  
+elect: "tbd",
+gas: "yes" ,
+water: "tbd" ,
+ 
+laundry: "yes",
+parking: "yes",
+
+apMonthCost:0,
+},
+      {
+name: "little fort court" ,
+address: "waukegan, il" ,
+webURL: "http://www.forrent.com/apartment-community-profile/1034247.php" ,
+bed: "1 bed",
+area: " tbd sqft", 
+space: 650,
+details: "free gas heat and stove",
+  
+elect: "no",
+gas: "yes" ,
+water: "no" ,
+ 
+laundry: "yes",
+parking: "yes",
+
+apMonthCost:0,
+},
+        {
+name: "Green bay Manner" ,
+address: "waukegan, il" ,
+webURL: "http://www.forrent.com/apartment-community-profile/1000060445.php" ,
+bed: "1 bed",
+area: " tbd sqft", 
+space: 700,
+details: "pet policy, undergorund parking garage",
+  
+elect: "no",
+gas: "yes" ,
+water: "no" ,
+ 
+laundry: "yes",
+parking: "yes",
+
+apMonthCost:0,
+},
+          {
+name: "Garden Park apartments" ,
+address: "waukegan, il" ,
+webURL: "http://www.forrent.com/apartment-community-profile/1000475090.php" ,
+bed: "1 bed",
+area: " BIG sqft", 
+space: 725,
+details: "big room, all electric apartment.",
+  
+elect: "no",
+gas: "no" ,
+water: "yes" ,
+ 
+laundry: "yes",
+parking: "yes",
+
+apMonthCost:0,
+},
+            {
+name: "Harbor Lake" ,
+address: "waukegan, il" ,
+webURL: "http://www.forrent.com/apartment-community-profile/1000060445.php" ,
+bed: "1 bed",
+area: " 710 sqft", 
+space: 734,
+details: "internet access, swiming pool, tennis court",
+  
+elect: "no",
+gas: "yes" ,
+water: "no" ,
+ 
+laundry: "yes",
+parking: "yes",
+
+apMonthCost:0,
+},
+              {
+name: "Fox crest" ,
+address: "waukegan, il" ,
+webURL: "http://www.forrent.com/apartment-community-profile/999907833.php" ,
+bed: "1 bed",
+area: " 725 sqft", 
+space: 725,
+details: "running paths and creek near by",
+  
+elect: "tbd",
+gas: "tbd" ,
+water: "tbd" ,
+ 
+laundry: "yes",
+parking: "yes",
+
+apMonthCost:0,
+},
+  {
+name: "Manchester knolls" ,
+address: "NorthChicago, il" ,
+webURL: "http://www.apartmentguide.com/apartments/Illinois/North-Chicago/Manchester-Knolls/187354/#_" ,
+bed: "2 bedroom town house",
+area: "big 2 bedroom sqft", 
+space: 697,
+details: "",
+  
+elect: "tbd",
+gas: "tbd" ,
+water: "tbd" ,
+ 
+laundry: "yes",
+parking: "yes",
+
+apMonthCost:0,
+},
+ {
+name: "Manchester knolls" ,
+address: "NorthChicago, il" ,
+webURL: "http://www.apartmentguide.com/apartments/Illinois/North-Chicago/Manchester-Knolls/187354/#_" ,
+bed: "2 bedroom town house",
+area: "big 2 bedroom sqft", 
+space: 618,
+details: "",
+  
+elect: "tbd",
+gas: "tbd" ,
+water: "tbd" ,
+ 
+laundry: "yes",
+parking: "yes",
+
+apMonthCost:0,
+},
+
+];
