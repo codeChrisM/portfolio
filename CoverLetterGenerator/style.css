@@ -1,7 +1,9 @@
 
+
+
 input, textarea {
 background:#f4f4f4;
-border:soolid 1px #a3a3a3;
+1border:solid 1px #a3a3a3;
 padding:0.5e, 0.75em; 
 -webkit-box-shadow inset 0 0.2em 0.3em rgba(0,0,250,.1);
 -moz-box-shadow inset 0 0.2em 0.3em rgba(0,0,250,.1);
@@ -29,8 +31,6 @@ border-radius: 0.5em;
 }
 
 
-
-
 fieldset{
 border:rgba(0,0,250,.2) double 0.4em;
 background-color:#F0F8FF;
@@ -43,6 +43,14 @@ border-radius: 1em;
 legend
 {
 font: 1.8em "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+table, td, th {
+   	margin: 10px;
+	size:30px;
+	border-radius: 5px;
+	input[type=text] {
+	size:400px}
 }
 
 
