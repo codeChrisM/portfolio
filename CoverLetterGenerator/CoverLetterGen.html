@@ -1,0 +1,190 @@
+<!doctype html>
+<html>
+<meta charset="UTF-8">
+
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+		table, td, th {
+   	margin: 10px;
+	size:30px;
+	border-radius: 5px;
+	input[type=text] {
+	size:400px}
+}
+	</style>
+</head>
+<body>
+	<header>
+		<em>Fill in the information and press enter</em>
+	<header>
+		<form>
+		<fieldset>
+<legend><strong>GENERATOR</strong>	</legend>
+		<table> 
+<tr>
+<td>Company Name</td><td>Boss Name</td>
+</tr>
+
+<tr>
+<td><input type="text" id="company" value="" required></td><td><input type="text" id="bossName" value=""required></td>
+</tr>
+<tr>
+	<td>____________</td>
+</tr>
+<tr>
+	<td>Job Title</td>
+</tr>
+<tr>
+	<td><input type="text" id="jobTitle" value="" required></td><td><strong>Intern?</strong><input type=checkbox id=intern  value="young"></td>
+</tr>
+<tr>
+	<td>SKILLS</td><td>BONUS SKILLS</td>
+</tr>
+<tr>
+	<td><input type="text" id="skills" value="" required></td><td><input type="text" id="bonus" value=""></td>
+</tr>
+<tr>
+	<td><strong>Profesion</strong></td>
+	
+</tr>
+<tr>
+	<td>
+		<select id="profesion" multiple="multiple">
+  		<optgroup label=CODE>
+			<option>Front-End Devolper</option>
+  			<option>Web Designer</option>
+  			<option>Web Developer</option>
+			<option>Coder</option>
+		</optgroup>
+		<optgroup label=ART>
+  			<option>Animator</option>
+			<option>Motion Graphics Artist</option>
+			<option>Video Editor</option>
+		</optgroup>
+	    	</select>
+	</td>
+</tr>
+		
+		</fieldset>
+		</form>
+</table>
+<tr>
+	<td><input type="button" id="process" onClick="allFunc()" ><strong>INTRO</strong></td>
+	
+</tr>
+
+
+
+
+
+<script type="text/javascript">
+//changes intro based on if we know the name of the one reviewing
+
+//insert boss name
+function intro(){
+var bossName= document.getElementById("bossName").value;
+var replacement ="Dear " + bossName + ","+  "<br>"  +"  My name is Christopher Marlowe and";
+
+if(bossName.length>1)
+document.getElementById("intro").innerHTML = replacement;
+else
+document.getElementById("intro").innerHTML= "Hello," +  "<br>"  + "  My name is Christopher Marlowe,";
+}
+
+
+
+//young or not inserted
+function internship(){
+var internbox= document.getElementById("intern").checked;
+if(internbox)
+	document.getElementById("youngInsert").innerHTML = "young ";
+else
+document.getElementById("youngInsert").innerHTML = " ";
+}
+
+
+//profesion inserted
+function profesionName(){
+var chosenProfesion = document.getElementById("profesion");
+var selectedText = chosenProfesion.options[chosenProfesion.selectedIndex].text;
+document.getElementById("profesionInsert").innerHTML = selectedText;
+}
+
+
+//time  
+function time(){
+var  chosenProfesion= document.getElementById("profesion");
+var x= chosenProfesion.options[chosenProfesion.selectedIndex].text;
+var timeID = document.getElementById("timeInsert").innerHTML;
+
+if((x == "Front-End Devolper")||(x == "Web Designer")||(x == "Web Developer")||(x == "Coder"))
+	document.getElementById("timeInsert").innerHTML= "almost a year ";
+else if((x == "Animator")||(x == "Motion Graphics Artist")||(x == "Video Editor"))
+	document.getElementById("timeInsert").innerHTML= "several years ";
+else 
+	document.getElementById("timeInsert").innerHTML= "ERROR. TIME function ERROR";
+}
+
+//add n for animator
+function n(){
+var chosenProfesion= document.getElementById("profesion");
+var x= chosenProfesion.options[chosenProfesion.selectedIndex].text;
+internbox=??????!!!!!!!!!!!!INSERT STUFF FOR PATH FOR IF STAEMENT BELOW
+
+if((x== "Animator")&&(internbox==false) )	
+document.getElementById("n").innerHTML="n ";
+else
+document.getElementById("n").innerHTML="test";
+}
+
+
+//all functions
+function allFunc(){
+    intro();
+    internship();
+    profesionName();
+    time();
+	n();
+
+}
+
+
+
+</script>
+
+<p><span id="intro">INTRO</span>
+
+I'm a<span id=n></span> <span id="youngInsert"></span><span id="profesionInsert">!!!</span> with<span id="timeInsert">!!!
+</span>of experience.  I'm applying for the <span id=jobTitle>!!!!!!</span> position.
+
+<!--triggered with mention of HTML and java script HTML in the letter.-->
+<div id="htmlTrigger">You are actually reading form a Cover letter Generator that I have created useing Javascript, CSS, and HTML.
+the Very skills you looking for a canidate to demonstrate are being read right now. A link to read it can be seen here.!!!!!!INSERT  LINK TO GITHUB!!!!!</div>
+
+
+I also noticed that <span id=companyName>!!!!</span> is looking for canidates with experience in <span id=skillsList>!!!!!!!</span>
+to which samples of my work can be seen at<span id=workLinks>!!!!!!!!!</span>.
+
+<!--triggered with mention of bonus in the letter.-->
+<div id="bonusTrigger">
+Lastly, I also comfortable with <span id=bonusSkills>!!!!!!!<span></div>
+
+<br>Thank you <span id=boss>!!!!!!!!</span> for your time. and I look foward to hearing back from you soon.
+
+Best,<br>
+Christopher Marlowe
+
+</p>
+		
+
+
+
+</body>
+<footer>Copy and paste into Cover letter.</footer>
+</html>
+
+
+
+
+
