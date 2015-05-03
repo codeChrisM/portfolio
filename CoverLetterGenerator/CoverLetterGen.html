@@ -165,8 +165,38 @@ document.getElementById("companyName").innerHTML= "ERROR: No  COMPANY NAME!!";
 function skillsList(){
 var skill= document.getElementById("skills").value;
 
+var skillsA= document.getElementById("skills").value;
+		
+		//selected pattern to search for HTML or java script
+		var pattern = /(html|java script|js|javascript)+\s*,*\s*(html|java script|js|javascript)*/i;
+		var result = pattern.exec(skillsA); // makes array[everything, thing1, thing 2,...]
+		var resultA= result.join();
+		result.shift(); //removes "everything" from array
+		
+		var end= result.length-1; //one spot in index before last 
+		
+	if(result.length>2){
+
+	var resultD= resultA
+		result.shift();
+		var resultC= result.join (" and length is ")+ end;
+		
+			
+		}else{
+		
+		var resultB= result.splice(end ,1," and ");
+		
+		var A = pattern.exec(skillsA);
+		A.shift();
+		i= A.length-1;
+		var b= A[i];
+
+		var resultC= result.join("/ ") + b;
+		}
+
+
 if(skill.length>1)
-document.getElementById("skillsList").innerHTML = skill;   
+document.getElementById("skillsList").innerHTML = resultD;   
 else
 document.getElementById("skillsList").innerHTML= "ERROR: No  SKILLSLIST!!";
 }
