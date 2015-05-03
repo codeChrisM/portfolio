@@ -166,39 +166,50 @@ function skillsList(){
 var skill= document.getElementById("skills").value;
 
 var skillsA= document.getElementById("skills").value;
-		
+console.log("0");
 		//selected pattern to search for HTML or java script
-		var pattern = /(html|java script|js|javascript)+\s*,*\s*(html|java script|js|javascript)*/i;
+		var pattern = /(html|java script|js|javascript)+\s*,*\s*(html|java script|js|javascript)+\s*,*\s*(html|java script|js|javascript)*/gi;
+console.log("1");
 		var result = pattern.exec(skillsA); // makes array[everything, thing1, thing 2,...]
-		var resultA= result.join();
-		result.shift(); //removes "everything" from array
+
+console.log(result);		
+console.log(result.length);
 		
+if(result[3]=== undefined){
+result.pop();
+console.log("un"+ result);
+}
+console.log("postpop"+result);
+		result.shift(); //removes "index0" from array
+console.log(result);	
+console.log(result.length);		
 		var end= result.length-1; //one spot in index before last 
-		
-	if(result.length>2){
-
-	var resultD= resultA
-		result.shift();
-		var resultC= result.join (" and length is ")+ end;
-		
-			
-		}else{
-		
-		var resultB= result.splice(end ,1," and ");
-		
-		var A = pattern.exec(skillsA);
-		A.shift();
-		i= A.length-1;
-		var b= A[i];
-
-		var resultC= result.join("/ ") + b;
-		}
 
 
-if(skill.length>1)
-document.getElementById("skillsList").innerHTML = resultD;   
-else
+		
+if(result.length<2){
 document.getElementById("skillsList").innerHTML= "ERROR: No  SKILLSLIST!!";
+console.log("none");
+ 
+
+}else if(result.length== 2){
+console.log("two");
+
+result.splice(1,0," and ");
+var resultA= result.join(" ");
+document.getElementById("skillsList").innerHTML = resultA+","; //two words 
+
+}else{ 
+console.log("more two");	
+console.log(result);
+var z= ", and " + result.slice(end);
+console.log(z);
+var y=result.slice(0,end);
+console.log(y);
+var resultAB=  y.join(", ")+ z;
+document.getElementById("skillsList").innerHTML = resultAB;  //3 or more
+}
+
 }
 
 
