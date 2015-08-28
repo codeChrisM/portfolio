@@ -59,24 +59,6 @@ apMonthCost:0,
 name: "Cinnamon Lake Towers" ,
 address: "2701 W Glen Flora Ave, Waukegan, IL 60085 - Northeast Lake County" ,
 webURL: "http://www.apartments.com/cinnamon-lake-towers-waukegan-il/51ghkyq/ " ,
-bed: "studio",
-area: "432 sqft" ,
-space: 575,
-   
-elect: "no",
-gas: "no",
-water: "yes",      
-details: "advertises 675 but is actually 690,  currently have 1 april early may another 690entire apartment includeing stove is electric.", 
-
-laundry: "no",
-parking: "yes",
-
-apMonthCost:0,
-},
-{
-name: "Cinnamon Lake Towers" ,
-address: "2701 W Glen Flora Ave, Waukegan, IL 60085 - Northeast Lake County" ,
-webURL: "http://www.apartments.com/cinnamon-lake-towers-waukegan-il/51ghkyq/ " ,
 space: 690,
 bed: "1 bed" ,
 area: "633 Sq Ft - 704 Sq Ft" ,
@@ -325,42 +307,7 @@ parking: "yes",
 
 apMonthCost:0,
 },
-    {
-name: "little fort court" ,
-address: "waukegan, il" ,
-webURL: "http://www.forrent.com/apartment-community-profile/1034247.php" ,
-bed: "1 bed",
-area: " tbd sqft", 
-space: 599,
-details: "free gas heat",
-  
-elect: "tbd",
-gas: "yes" ,
-water: "tbd" ,
  
-laundry: "yes",
-parking: "yes",
-
-apMonthCost:0,
-},
-      {
-name: "little fort court" ,
-address: "waukegan, il" ,
-webURL: "http://www.forrent.com/apartment-community-profile/1034247.php" ,
-bed: "1 bed",
-area: " tbd sqft", 
-space: 650,
-details: "free gas heat and stove",
-  
-elect: "no",
-gas: "yes" ,
-water: "no" ,
- 
-laundry: "yes",
-parking: "yes",
-
-apMonthCost:0,
-},
         {
 name: "Green bay Manner" ,
 address: "waukegan, il" ,
@@ -433,32 +380,35 @@ parking: "yes",
 
 apMonthCost:0,
 },
-  {
-name: "Manchester knolls" ,
-address: "NorthChicago, il" ,
-webURL: "http://www.apartmentguide.com/apartments/Illinois/North-Chicago/Manchester-Knolls/187354/#_" ,
-bed: "2 bedroom town house",
-area: "big 2 bedroom sqft", 
-space: 697,
-details: "",
+{
+name: "Craigs list  Pioneer Court Apartments" ,
+address: "900 Pioneer waukegan, il" ,
+webURL: "http://chicago.craigslist.org/nch/apa/4998253480.html" ,
+bed: "1 bed",
+area: " 800 sqft", 
+space: 725,
+details: "next to dotty's heaat and water included  One-time non-refundable move in fee of $250. No security deposit. $25 per adult to apply.",
+phone:"847 651-5006",
   
-elect: "tbd",
+elect: "no",
 gas: "tbd" ,
-water: "tbd" ,
+water: "yes" ,
  
 laundry: "yes",
 parking: "yes",
 
 apMonthCost:0,
 },
- {
-name: "Manchester knolls" ,
-address: "NorthChicago, il" ,
-webURL: "http://www.apartmentguide.com/apartments/Illinois/North-Chicago/Manchester-Knolls/187354/#_" ,
-bed: "2 bedroom town house",
-area: "big 2 bedroom sqft", 
-space: 618,
-details: "",
+
+{
+name: "Craigs list  Pioneer Court Apartments" ,
+address: "green bay/washington waukegan, il" ,
+webURL: "http://chicago.craigslist.org/nch/apa/4998253480.html" ,
+bed: "1 bed",
+area: " 550 sqft", 
+space: 650,
+details: "engegry efficent windows, no pets privetly owended. nice place. goo location  available may 17.",
+phone:"1-847-244-6448 or 1-224-627-5954.",
   
 elect: "tbd",
 gas: "tbd" ,
