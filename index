@@ -88,7 +88,31 @@
 		</ul>
 	</section>
 
+	<footer>
+		<section>
+		 	<h3><b>Christopher Marlowe</b></h3>
+		 	<p><b>847-650-8160</b></p>
+		 	<p><b>chris@codeChris.com</b></p>
+		</section>
+		<section>
+			<h3>follow</h3>
+			<ul class= "social">
+				<li><a href = "#"> <img src="linked in"></li>
+		<!--github-->
+		<li><a href = "#"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png"/></li>
+		<!--linkedIn-->
+		<img src="http://pas-bplans.s3.amazonaws.com/tracking-weekly/logo_Linkedin.png"/></li>
+		<!--Codecademy-->
+		<img src="https://d1qb2nb5cznatu.cloudfront.net/startups/i/57028-75249c08760cc9b8331013724066c538-medium_jpg.jpg?buster=1407971510"/></li>
+		<!--Blog-->
+		<img src="http://findicons.com/files/icons/730/soft/128/rss.png"/></li>
+		<!--youtube-->
+		<img src="http://cdn.ndtv.com/tech/images/gadgets/thumb/youtube_app_logo_official_small.jpg"/></li>
+			</ul>
+		</section>	
+	</footer>
 
+<!-- 
 
 
 			<ul>
