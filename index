@@ -100,14 +100,14 @@ $(window).load(function(){
 		<section>
 		 	<h3><b>Christopher Marlowe</b></h3>
 		 	<p><b>847-650-8160</b></p>
-		 	<p><b>chris@codeChris.com</b></p>
+		 	<p><b>Chris@codeChris.com</b></p>
 		</section>
 		<section>
 			<h3>follow</h3>
 			<ul class= "social">
-				<li><a href = "#"> <img src="linked in"></li>
+			
 		<!--github-->
-		<li><a href = "#"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png"/></li>
+		<a href = "#"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png"/></li>
 		<!--linkedIn-->
 		<img src="http://pas-bplans.s3.amazonaws.com/tracking-weekly/logo_Linkedin.png"/></li>
 		<!--Codecademy-->
@@ -120,12 +120,7 @@ $(window).load(function(){
 		</section>	
 	</footer>
 
-<!-- 
 
-
-			<ul>
-				
-			</ul>
 </body>
 </html>
 
