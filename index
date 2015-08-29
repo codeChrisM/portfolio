@@ -48,6 +48,46 @@
 		<p>Not a TV show</p>
 	</section>
 
+	<div class="clear"></div>
+	<section>
+	<article>
+		<h2>About Me</h2>
+			<p>I enjoy creating things that don’t currently exist.   Solving problems and puzzles by thinking outside the box has been what has lead me to pursueing a career in Computer Programming.  
+
+			For personal hobbies I enjoy createing artwork from drawing to 3D Animation.  I am a marthon runner, dancer, and magician.
+			Lastly, favorite superhero is going to be Batman.</p>
+	</article>
+	</section>
+
+	<section>
+		<h2>Knowledge</h2>
+			<ul = "Knowledge">
+				<li><h3>HTML5 / CSS<h3></li>
+				<li><h3>JavaScript / Jquery<h3></li>
+				<li><h3>Java<h3></li>
+				<li><h3>VBA / VBScript<h3></li>
+				<li><h3>GitHub<h3></li>
+				<li><h3>Terminal / Compand Line<h3></li>
+				<li><h3>C / C++ /C #<h3></li>
+				<li><h3>Ruby<h3></li>
+				<li><h3>Sublime<h3></li>
+				<li><h3>Muse <h3></li>
+			</ul>
+	</section>
+
+	<div class="clear"></div>	
+	<section>
+		<h1>Experience</h1>
+		<ul>
+			<li><h3>Lorem ipsum dolor sit amet enim</h3></li>
+			<li><h3>Etiam ullamcorper</h3></li>
+			<li><h3>Suspendisse a pellentesque dui, non felis</h3></li>
+			<li><h3>Maecenas malesuada elit lectus felis, malesuada ultricies</h3></li>
+			<li><h3>Ut molestie a, ultricies porta urna </h3></li>
+			<li><h3>Vestibulum commodo volutpat</h3></li> 
+		</ul>
+	</section>
+
 
 
 
