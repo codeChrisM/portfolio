@@ -5,14 +5,14 @@
 <!--meta name= "viewport" content="width=divice-width, initial-scale= 1.0"-->
 
 <link rel="stylesheet" type="text/css" href="codeChris_Style.css">
-<link rel= "stylesheet" href = "blueberry.css" />
 <style type="text/css"></style>
+</head>
 
 <body>
 	<header>
-		<a href = "#" id = "logo"></a>
+		<a href = "#" id = ""></a>
 		<nav>
-			<a href = "#" id="menu-icon"></a>
+			<a href = "#" id="navBar"></a>
 			<ul>
 				<li><a href="#" class= "current">Home</a></li>
 				<li><a href="#">About Me</a></li>
@@ -22,28 +22,39 @@
 			</ul>
 		</nav>
 	</header>	
-	<div id="doc">
-				<img src="http://drawntothis.com/wp-content/uploads/2011/01/Gerald_Dean_Batman.jpg" style= "width:400px; height:400px;">
-<h1 id= "nameTitle">Christopher Marlowe codeing devolper</h1>
+	<div id="titleBlock">
+				<img class= bioPic src="http://drawntothis.com/wp-content/uploads/2011/01/Gerald_Dean_Batman.jpg">
+				<aside class="nameTitle"><h1>Christopher Marlowe codeing devolper</h1></aside>
 	</div>
 	<section>
-			<div class=logos>
+		
 		<img class= "logos" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png"/>
 		<h1>GitHub</h1>
 		<p>See my code</p>
-		<img class= "logos" src="http://pas-bplans.s3.amazonaws.com/tracking-weekly/logo_Linkedin.png"/>
+		
+
+		
+		<img  class=logos src="http://pas-bplans.s3.amazonaws.com/tracking-weekly/logo_Linkedin.png"/>
 		<h1>linkedIn</h1>
 		<p>Hire me!</p>
-		<img src="https://d1qb2nb5cznatu.cloudfront.net/startups/i/57028-75249c08760cc9b8331013724066c538-medium_jpg.jpg?buster=1407971510"/>
+		
+
+		
+		<img class=logos src="https://pbs.twimg.com/profile_images/497317564712636416/UPXtaIgD_400x400.png"/>
 		<h1>Codecademy</h1>
 		<p>Because... Why not?</p>
-		<img src="http://findicons.com/files/icons/730/soft/128/rss.png"/>
+		
+
+		
+		<img class=logos src="http://findicons.com/files/icons/730/soft/128/rss.png"/>
 		<h1>Blog</h1>
 		<p>Like a really short book</p>
-		<img src="http://cdn.ndtv.com/tech/images/gadgets/thumb/youtube_app_logo_official_small.jpg"/>
+		<img class=logos src="http://cdn.ndtv.com/tech/images/gadgets/thumb/youtube_app_logo_official_small.jpg"/>
+		
+		<div class=logos>
 		<h1>Youtube</h1>
 		<p>Not a TV show</p>
-		</div>
+		
 	</section>
 
 	<div class="clear"></div>
