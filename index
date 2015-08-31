@@ -2,17 +2,11 @@
 <head>
 <meta charset="utf-8"/>
 <title>CodeChris - Codeing Developer </title>
-<meta name= "viewport" content="width=divice-width, initial-scale= 1.0">
+<!--meta name= "viewport" content="width=divice-width, initial-scale= 1.0"-->
+
+<link rel="stylesheet" type="text/css" href="codeChris_Style.css">
 <link rel= "stylesheet" href = "blueberry.css" />
 <style type="text/css"></style>
-
-<script src="https://ajax.googleapis.com/ajax/libs/Jquery/1.6.1/Jquery.min.js"></script>
-<script src= "jquery.blueberry.js"></script>
-<script>
-$(window).load(function(){
-	$('.blueberry').blueberry();
-});
-</script>
 
 <body>
 	<header>
@@ -29,20 +23,15 @@ $(window).load(function(){
 		</nav>
 	</header>	
 	<div id="doc">
-		<div id= "content">
-			<div class = "blueberry">
-			<ul class ="slides">
-				<li><img src="http://cdn.playbuzz.com/cdn/3170bee8-985c-47bc-bbb5-2bcb41e85fe9/d8aa4750-deef-44ac-83a1-f2b5e6ee029a.jpg"</li>
-				<li><img src="http://avdi.org/talks/exceptional-ruby-rubyconf-2011/batman-small.jpg"</li>
-				<li><img src="http://drawntothis.com/wp-content/uploads/2011/01/Gerald_Dean_Batman.jpg"</li>
-			</ul>
-		</div>
+				<img src="http://drawntothis.com/wp-content/uploads/2011/01/Gerald_Dean_Batman.jpg" style= "width:400px; height:400px;">
+<h1 id= "nameTitle">Christopher Marlowe codeing devolper</h1>
 	</div>
 	<section>
-		<img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png"/>
+			<div class=logos>
+		<img class= "logos" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png"/>
 		<h1>GitHub</h1>
 		<p>See my code</p>
-		<img src="http://pas-bplans.s3.amazonaws.com/tracking-weekly/logo_Linkedin.png"/>
+		<img class= "logos" src="http://pas-bplans.s3.amazonaws.com/tracking-weekly/logo_Linkedin.png"/>
 		<h1>linkedIn</h1>
 		<p>Hire me!</p>
 		<img src="https://d1qb2nb5cznatu.cloudfront.net/startups/i/57028-75249c08760cc9b8331013724066c538-medium_jpg.jpg?buster=1407971510"/>
@@ -54,6 +43,7 @@ $(window).load(function(){
 		<img src="http://cdn.ndtv.com/tech/images/gadgets/thumb/youtube_app_logo_official_small.jpg"/>
 		<h1>Youtube</h1>
 		<p>Not a TV show</p>
+		</div>
 	</section>
 
 	<div class="clear"></div>

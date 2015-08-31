@@ -401,7 +401,7 @@ apMonthCost:0,
 },
 
 {
-name: "Craigs list  Pioneer Court Apartments" ,
+name: "Craigs listing" ,
 address: "green bay/washington waukegan, il" ,
 webURL: "http://chicago.craigslist.org/nch/apa/4998253480.html" ,
 bed: "1 bed",
@@ -419,5 +419,317 @@ parking: "yes",
 
 apMonthCost:0,
 },
+{
+name: "Craigs list 14" ,
+address: "930 W. Rollins Rd. Round Lake Heights" ,
+webURL: "https://chicago.craigslist.org/nch/apa/5015140137.html" ,
+bed: "1 bed",
+area: " 525 sqft", 
+space: 700,
+details: "Remodeled 1 bedroom with new kitchen and bath with ceramic floors, free heat available June 1",
+phone:"?",
+  
+elect: "tbd",
+gas: "tbd" ,
+water: "tbd" ,
+ 
+laundry: "yes",
+parking: "yes",
+
+apMonthCost:0,
+},
+
+{
+name: "Craigs list 15" ,
+address: "park city" ,
+webURL: "https://chicago.craigslist.org/nch/apa/5015140137.html" ,
+bed: "1 bed",
+area: "616 sqft", 
+space: 725,
+details: "Can't beat this price of only $725 a month and 1st months rent free.
+This home won't last long...Beautiful home waiting for you!",
+phone:"847-662-8110",
+  
+elect: "tbd",
+gas: "tbd" ,
+water: "tbd" ,
+ 
+laundry: "yes",
+parking: "yes",
+
+apMonthCost:0,
+},
+{
+name: "Craigs list AWESOME 16" ,
+address: "waukegan" ,
+webURL: "https://chicago.craigslist.org/nch/apa/5010988820.html" ,
+bed: "studio",
+area: "600 sqft", 
+space: 495,
+details: "Great unit in Waukegan, multiunit building - close to bus and shopping area. 
+Large closets and great views! Laundry is in the building!
+Property Manager lives on site - very well maintained building. 
+Parking is available. Garage is an option
+Available June 1!",
+phone:"",
+  
+elect: "tbd",
+gas: "tbd" ,
+water: "tbd" ,
+ 
+laundry: "yes",
+parking: "yes",
+
+apMonthCost:0,
+},
+
+{
+name: "Craigs list  17" ,
+address: "gurnee" ,
+webURL: "https://chicago.craigslist.org/nch/apa/4970744759.html" ,
+bed: "studio",
+area: "625-700sqft", 
+space: 707,
+details: "Located near great shopping and Six Flags Great America, Carriage House Apartments offer spacious one bedroom apartments with laundry in each building. Parking is free, our apartments are pet-friendly, and our maintenance staff is available 24 hours. Relax by our swimming pool during the warm summer months and see our beautifully landscaped grounds for yourself. 
+
+Rent information:
+$687 for 625 sq. feet
+$707 for 650 sq. feet
+$757 for 700 sq. feet",
+phone:"847-224-1616",
+  
+elect: "tbd",
+gas: "tbd" ,
+water: "tbd" ,
+ 
+laundry: "yes",
+parking: "yes",
+available:"TBD 5/9"
+
+apMonthCost:0,
+},
+{
+name: "muldine" ,
+address: "mundelin" ,
+webURL: "http://www.forrent.com/apartment-community-profile/1000910.php" ,
+bed: "studio",
+area: "TBD", 
+space: 725,
+details: "near freway 22 min to six flags 18 to deer park",
+phone:"866-819-2527",
+  
+elect: "tbd",
+gas: "tbd" ,
+water: "tbd" ,
+ 
+laundry: "yes",
+parking: "yes",
+available:"TBD 5/9"
+
+apMonthCost:0,
+},
+{
+name: "lincoln garfield apartments" ,
+address: "506 lincoln, ingleside, il 60041" ,
+webURL: "http://www.rent.com/illinois/ingleside-apartments/lincoln-garfield-apartments-fox-lake-4-536282" ,
+bed: "1 bedroom",
+area: "610ft", 
+space: 725,
+details: "30 minutes for both of us to travel to work, cats and dogs allowed",
+phone:"(847) 629-0474",
+  
+elect: "tbd",
+gas: "tbd" ,
+water: "tbd" ,
+ 
+laundry: "yes",
+parking: "yes",
+available:"TBD 5/9"
+
+apMonthCost:0,
+},
+
+{
+name: "Park Terrace" ,
+address: "4100 Greenleaf, Park City IL 60085 " ,
+webURL: "http://www.rent.com/illinois/park-city-apartments/park-terrace-4-100012330" ,
+bed: "1 bedroom",
+area: "700ft", 
+space: 730,
+details: "cats ok internet ready high speed, where brian and nicle use to live",
+phone:"(847) 739-9214",
+  
+elect: "tbd",
+gas: "tbd" ,
+water: "tbd" ,
+ 
+laundry: "yes",
+parking: "yes",
+available:"TBD 5/9"
+
+apMonthCost:0,
+},
+{
+name: "Willow Wind Apartments" ,
+address: "2640 N Delany Rd, Waukegan IL 60087" ,
+webURL: "http://www.rent.com/illinois/waukegan-apartments/willow-wind-apartments-4-1311755" ,
+bed: "1 bedroom",
+area: "700ft", 
+space: 700,
+details: "$1 a square foot",
+phone:"(224) 772-1063",
+  
+elect: "tbd",
+gas: "tbd" ,
+water: "tbd" ,
+ 
+laundry: "yes",
+parking: "yes",
+available:"TBD 5/9"
+
+apMonthCost:0,
+},
+{
+name: "Madison West Apartments" ,
+address: "515 West Madison Street, Waukegan IL 60085 " ,
+webURL: "http://www.rent.com/illinois/waukegan-apartments/madison-west-apartments-4-549275" ,
+bed: "1 bedroom",
+area: "700ft", 
+space: 695,
+details: " also has a studio of 450 F for only 595",
+phone:"(847) 379-5966",
+  
+elect: "tbd",
+gas: "tbd" ,
+water: "tbd" ,
+ 
+laundry: "yes",
+parking: "yes",
+available:"TBD 5/9"
+
+apMonthCost:0,
+},
+{
+name: "Madison West Apartments" ,
+address: "515 West Madison Street, Waukegan IL 60085 " ,
+webURL: "http://www.rent.com/illinois/waukegan-apartments/madison-west-apartments-4-549275" ,
+bed: "1 bedroom",
+area: "700ft", 
+space: 695,
+details: " also has a studio of 450 F for only 595",
+phone:"(847) 379-5966",
+  
+elect: "tbd",
+gas: "tbd" ,
+water: "tbd" ,
+ 
+laundry: "yes",
+parking: "yes",
+available:"TBD 5/9"
+
+apMonthCost:0,
+},
+{
+name: "Horizon Village" ,
+address: "1302 Wilmont Avenue, Twin Lakes WI 53181" ,
+webURL: "http://www.rent.com/illinois/zion-apartments/horizon-village-4-434214" ,
+bed: "2 bedroom",
+area: "720ft", 
+space: 725,
+details: "50 minutes for both of us to work. middle of no where but is a 2 bed. cats ok",
+phone:"(262) 671-0056",
+  
+elect: "tbd",
+gas: "tbd" ,
+water: "tbd" ,
+ 
+laundry: "yes",
+parking: "yes",
+available:"TBD 5/9"
+
+apMonthCost:0,
+},
+{
+name: "Horizon Village" ,
+address: "1302 Wilmont Avenue, Twin Lakes WI 53181" ,
+webURL: "http://www.rent.com/illinois/zion-apartments/horizon-village-4-434214" ,
+bed: "2 bedroom",
+area: "720ft", 
+space: 725,
+details: "50 minutes for both of us to work. middle of no where but is a 2 bed. cats ok",
+phone:"(262) 671-0056",
+  
+elect: "tbd",
+gas: "tbd" ,
+water: "tbd" ,
+ 
+laundry: "yes",
+parking: "yes",
+available:"TBD 5/9"
+
+apMonthCost:0,
+},
+{
+name: "private owner 1" ,
+address: "523 W Greenwood Ave
+Waukegan, IL 60087" ,
+webURL: "http://www.trulia.com/rental/3172388910-523-W-Greenwood-Ave-Waukegan-IL-60087#photo-2" ,
+bed: "1 bedroom",
+area: "600ft", 
+space: 595,
+details: "thquite northern side of waukegan",
+phone:"(847) 379-5232",
+  
+elect: "tbd",
+gas: "tbd" ,
+water: "tbd" ,
+ 
+laundry: "yes",
+parking: "yes",
+available:"TBD 5/9"
+
+apMonthCost:0,
+},
+{
+name: "private owner 2" ,
+address: "2040 N Pine St #2 Waukegan, IL 60087" ,
+webURL: "http://www.trulia.com/rental/3139723224-2040-N-Pine-St-2-Waukegan-IL-60087#photo-2" ,
+bed: "1 bedroom",
+area: "600ft", 
+space: 700,
+details: "...eh",
+phone:"(847) 672-4429",
+  
+elect: "tbd",
+gas: "tbd" ,
+water: "tbd" ,
+ 
+laundry: "yes",
+parking: "yes",
+available:"TBD 5/9"
+
+apMonthCost:0,
+},
+{
+name: "Hinkston Pond Apts" ,
+address: "2040 N Pine St #2 Waukegan, IL 60087" ,
+webURL: "http://www.trulia.com/rental/3139723224-2040-N-Pine-St-2-Waukegan-IL-60087#photo-2" ,
+bed: "1 bedroom",
+area: "800ft", 
+space: 675,
+details: "...eh",
+phone:"(224) 610-0335",
+  
+elect: "tbd",
+gas: "tbd" ,
+water: "tbd" ,
+ 
+laundry: "yes",
+parking: "yes",
+available:"TBD 5/9"
+
+apMonthCost:0,
+},
+
 
 ];
