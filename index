@@ -12,7 +12,8 @@
 	<header>
 		<a href = "#" id = ""></a>
 		<nav>
-			<a href = "#" id="navBar"></a>
+			<img id="repeat" src="http://lowes.lghausysusa.com/content/com.LG.products.Product/28/Marta_Gray.jpg">
+			<a href = "#" id="navIcon"></a>
 			<ul>
 				<li><a href="#" class= "current">Home</a></li>
 				<a><li href="#">About Me</a></li>
@@ -29,42 +30,52 @@
 				</aside>
 	</div>
 
-	<section>
-		<div id= Github>
-		<a href="https://github.com/keyFrameM">
-		<img class= "logoLarge" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png"/>
-		</a>	
-		<h3>GitHub</h3>
-		<p>See my code</p>
+	<section id="linkSection">
+			
+		<div class= "linkImage">
+			<a href="https://github.com/keyFrameM">
+			<img class= "logoLarge" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png"/>
+			</a>
+			<h3>GitHub</h3>
+			<p>See my code</p>	
 		</div>
-				
-		<a href="https://www.linkedin.com/in/christophermarlowe">
-			<img  class="logoLarge" src="http://pas-bplans.s3.amazonaws.com/tracking-weekly/logo_Linkedin.png" alt=LinkedIn/>
-		</a>
-		<h3>linkedIn</h3>
-		<p>Hire me!</p>
 		
-		<a href="https://www.codecademy.com/keyFrameM">
-		<img class="logoLarge" src="https://pbs.twimg.com/profile_images/497317564712636416/UPXtaIgD_400x400.png"/>
-		</a>
-		<h3>Codecademy</h3>
-		<p>Because... Why not?</p>
-		
-		<a href="https://www.codechris.com/blog">
-		<img class="logoLarge" src="http://findicons.com/files/icons/730/soft/128/rss.png"/>
-		</a>
-		<h3>Blog</h3>
-		<p>Like a really short book</p>
+		<div class= "linkImage">
+			<a href="https://www.linkedin.com/in/christophermarlowe">
+				<img  class="logoLarge" src="http://pas-bplans.s3.amazonaws.com/tracking-weekly/logo_Linkedin.png" alt=LinkedIn/>
+			</a>
+			<h3>linkedIn</h3>
+			<p>Hire me!</p>
+		</div>
 
-		<a href="https://www.youtube.com/user/MarloweAnimation">
-		<img class= "logoLarge" src="http://cdn.ndtv.com/tech/images/gadgets/thumb/youtube_app_logo_official_small.jpg"/>
-		</a>
-		<h3>Youtube</h3>
-		<p>Not a TV show</p>	
+		<div class= "linkImage">
+			<a href="https://www.codecademy.com/keyFrameM">
+			<img class="logoLarge" src="https://pbs.twimg.com/profile_images/497317564712636416/UPXtaIgD_400x400.png"/>
+			</a>
+			<h3>Codecademy</h3>
+			<p>Because... Why not?</p>
+		</div>
+
+		<div class= "linkImage">
+			<a href="https://www.codechris.com/blog">
+			<img class="logoLarge" src="http://findicons.com/files/icons/730/soft/128/rss.png"/>
+			</a>
+			<h3>Blog</h3>
+			<p>Like a really short book</p>
+		</div>
+
+		<div class= "linkImage">
+			<a href="https://www.youtube.com/user/MarloweAnimation">
+			<img class= "logoLarge" src="http://cdn.ndtv.com/tech/images/gadgets/thumb/youtube_app_logo_official_small.jpg"/>
+			</a>
+			<h3>Youtube</h3>
+			<p>Not a TV show</p>	
+		</div>
 	</section>
 
 	<div class="clear"></div>
 	<section>
+		<div>
 	<article>
 		<h2>About Me</h2>
 			<p>I enjoy creating things that don’t currently exist.   Solving problems and puzzles by thinking outside the box has been what has lead me to pursueing a career in Computer Programming.  
@@ -72,6 +83,7 @@
 			For personal hobbies I enjoy createing artwork from drawing to 3D Animation.  I am a marthon runner, dancer, and magician.
 			Lastly, favorite superhero is going to be Batman.</p>
 	</article>
+		</div>
 	</section>
 
 	<section>
@@ -102,16 +114,16 @@
 			<li><h3>Vestibulum commodo volutpat</h3></li> 
 		</ul>
 	</section>
-</body>
+
 
 	<footer>
 		<section>
-		 	<h3><b>Christopher Marlowe</b></h3>
+		 	<h4><b>Christopher Marlowe</b></h4>
 		 	<p><b>847-650-8160</b></p>
 		 	<p><b>Chris@codeChris.com</b></p>
 		</section>
 		<section>
-			<h3>follow</h3>
+			<h5>follow</h5>
 			<ul class= "social">
 			
 		<!--github-->
@@ -127,7 +139,7 @@
 			</ul>
 		</section>	
 	</footer>
-
+</body>
 
 
 </html>
