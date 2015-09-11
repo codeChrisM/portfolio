@@ -4,9 +4,9 @@
 	padding:0;
 }
 header{
-	background-color: #457995;
+	background-color: #444495;
 	width:100%;
-	height: 50px;
+	height: 100px;
 	position:fixed;
 	display: inline;
 	top:0;
@@ -29,21 +29,37 @@ h3{
 	font-family: "Arial Black", Gadget, sans-serif;
 	font-size: 15px;
 }
-.linkImage{
-	display: block-inline;
-  float: left;
+#linkImage{
+  float: center;
   text-align: center;
+
   padding: 10px 10px;
+  background-color: #555555;
+}
+#linkImage ul li{
+
+  text-align: center;
+  display: inline-block;
+  padding: 20px 20px;
+  background-color: #555555;
+}
+
+#aboutMe{
+	background-color: #666666
+}
+#knowledge{
+	background-color: #fff
 }
 p{
 
 }
 
 body{
-	background-color: #AED6E1
+	background-color: #AED6E1;
+
 }
 a{
-	color: :#FFF;
+	color: :#F777FF;
 	text-decoration: none;
 }
 
@@ -102,8 +118,13 @@ section{
 }
 
 #titleBlock{
-	float: center;
-
+	background-color: #123456;
+	float:left;
+	width: 100%
+}
+.nameTitle{
+	float: left;
+	width: 100px;
 }
 .current{
 	color:#FFF;
@@ -112,11 +133,14 @@ section{
 .bioPic{
 	width: 420px;
 	height: 420px;
+	float: left; 
+	width: 200px;"
 }
 .logoSmall{
 	width: 50px;
 	height: 50px;
 	display: inline;
+
 }
 
 .logoLarge{
@@ -132,6 +156,18 @@ section{
   width: 150px;
 	
 }
+
+
+
+
+
+
+
+
+
+
+
+
 footer{
 	background: #333333;
 	width: 100%;
@@ -146,4 +182,3 @@ footer p a {
 	color:#FFF;
 	text-decoration: none;
 }
-color: 
