@@ -1,10 +1,33 @@
-h1{
-	text-align
+header{
+	background-color: #457995;
+	width:100%;
+	position:fixed;
 }
+h1{
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 50px;
+}
+h2{
+	color: #A8A8B7; 
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 40px;
+}
+h3{
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 15px;
+}
+
 body{
 	background-color: #AED6E1
 }
 
+a:hover{
+	color:#FFF;
+
+}
+#navBar{
+
+}
 .bioPic{
 	width: 420px;
 	height: 420px;

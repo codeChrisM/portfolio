@@ -24,34 +24,43 @@
 	</header>	
 	<div id="titleBlock">
 				<img class= bioPic src="http://drawntothis.com/wp-content/uploads/2011/01/Gerald_Dean_Batman.jpg">
-				<aside class="nameTitle"><h1>Christopher Marlowe codeing developer</h1></aside>
+				<aside class="nameTitle">
+					<h1>Christopher Marlowe</h1><h1>codeing developer</h1>
+				</aside>
 	</div>
+
 	<section>
-		
+		<div id= Github>
+		<a href="https://github.com/keyFrameM">
 		<img class= "logoLarge" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png"/>
-		<h1>GitHub</h1>
+		</a>	
+		<h3>GitHub</h3>
 		<p>See my code</p>
+		</div>
 				
 		<a href="https://www.linkedin.com/in/christophermarlowe">
 			<img  class="logoLarge" src="http://pas-bplans.s3.amazonaws.com/tracking-weekly/logo_Linkedin.png" alt=LinkedIn/>
 		</a>
-		<h1>linkedIn</h1>
+		<h3>linkedIn</h3>
 		<p>Hire me!</p>
 		
-	
+		<a href="https://www.codecademy.com/keyFrameM">
 		<img class="logoLarge" src="https://pbs.twimg.com/profile_images/497317564712636416/UPXtaIgD_400x400.png"/>
-		<h1>Codecademy</h1>
+		</a>
+		<h3>Codecademy</h3>
 		<p>Because... Why not?</p>
 		
-
+		<a href="https://www.codechris.com/blog">
 		<img class="logoLarge" src="http://findicons.com/files/icons/730/soft/128/rss.png"/>
-		<h1>Blog</h1>
+		</a>
+		<h3>Blog</h3>
 		<p>Like a really short book</p>
 
+		<a href="https://www.youtube.com/user/MarloweAnimation">
 		<img class= "logoLarge" src="http://cdn.ndtv.com/tech/images/gadgets/thumb/youtube_app_logo_official_small.jpg"/>
-		<h1>Youtube</h1>
-		<p>Not a TV show</p>
-		
+		</a>
+		<h3>Youtube</h3>
+		<p>Not a TV show</p>	
 	</section>
 
 	<div class="clear"></div>
@@ -83,7 +92,7 @@
 
 	<div class="clear"></div>	
 	<section>
-		<h1>Experience</h1>
+		<h2>Experience</h2>
 		<ul>
 			<li><h3>Lorem ipsum dolor sit amet enim</h3></li>
 			<li><h3>Etiam ullamcorper</h3></li>
@@ -93,6 +102,7 @@
 			<li><h3>Vestibulum commodo volutpat</h3></li> 
 		</ul>
 	</section>
+</body>
 
 	<footer>
 		<section>
@@ -119,6 +129,6 @@
 	</footer>
 
 
-</body>
+
 </html>
 
