@@ -1,8 +1,20 @@
+h1{
+	text-align
+}
+body{
+	background-color: #AED6E1
+}
+
 .bioPic{
 	width: 420px;
 	height: 420px;
 }
-.logos{
-	width: 120px;
-	height: 120px;
+.logoSmall{
+	width: 50px;
+	height: 50px;
+}
+
+.logoLarge{
+	width: 150px;
+	height: 150px;
 }
