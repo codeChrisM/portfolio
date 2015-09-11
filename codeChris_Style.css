@@ -30,15 +30,10 @@ h3{
 	font-size: 15px;
 }
 .linkImage{
-	display: inline;
+	display: block-inline;
   float: left;
   text-align: center;
   padding: 10px 10px;
-
-
-}
-#linkSection{
-	float: center;
 }
 p{
 
@@ -55,6 +50,23 @@ a{
 a:hover{
 	color:#FFF;
 
+}
+.clear
+{
+	clear: both;
+}
+article{
+	float: left;
+	margin: 0 auto;
+	height: auto;
+	padding: 4%;
+}
+
+aside{
+	float:right;
+	margin: 0 auto;
+	height: auto;
+	padding: 3%;
 }
 #repeat{
 	height:20px;
@@ -80,6 +92,18 @@ nav ul li{
 	display:inline-block;
 	float:left;
 	padding: 10px;
+}
+section{
+	
+	float: center;
+	margin: 2% 2%;
+	text-align: center;
+
+}
+
+#titleBlock{
+	float: center;
+
 }
 .current{
 	color:#FFF;
@@ -108,3 +132,18 @@ nav ul li{
   width: 150px;
 	
 }
+footer{
+	background: #333333;
+	width: 100%;
+	overflow:hidden;
+	opacity: .90;
+}
+
+footer p, footer h3{
+	color: #FFF
+}
+footer p a {
+	color:#FFF;
+	text-decoration: none;
+}
+color: 
