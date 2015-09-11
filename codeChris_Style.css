@@ -1,32 +1,89 @@
+*{
+	margin:0;
+	border: 0;
+	padding:0;
+}
 header{
 	background-color: #457995;
 	width:100%;
+	height: 50px;
 	position:fixed;
+	display: inline;
+	top:0;
+	left: 0;
+	z-index: 0;
 }
 h1{
 	font-family: "Arial Black", Gadget, sans-serif;
 	font-size: 50px;
+
 }
 h2{
 	color: #A8A8B7; 
 	font-family: "Arial Black", Gadget, sans-serif;
 	font-size: 40px;
+	
 }
 h3{
+
 	font-family: "Arial Black", Gadget, sans-serif;
 	font-size: 15px;
+}
+.linkImage{
+	display: inline;
+  float: left;
+  text-align: center;
+  padding: 10px 10px;
+
+
+}
+#linkSection{
+	float: center;
+}
+p{
+
 }
 
 body{
 	background-color: #AED6E1
+}
+a{
+	color: :#FFF;
+	text-decoration: none;
 }
 
 a:hover{
 	color:#FFF;
 
 }
-#navBar{
-
+#repeat{
+	height:20px;
+	background-repeat: repeat;
+}
+nav{
+	float:right;
+	padding: 35px 20px 20px 0
+}
+#navIcon{
+	display:hidden;
+	width:40px;
+	height: 40px;
+	background: url(http://www.shoredreams.net/wp-content/uploads/2014/02/show-menu-icon.png) center;
+}
+a:hover#navIcon{
+	border-radius:4px 4px 0 0;
+}
+ul{
+	list-style: none;
+}
+nav ul li{
+	display:inline-block;
+	float:left;
+	padding: 10px;
+}
+.current{
+	color:#FFF;
+	text-decoration: underline;
 }
 .bioPic{
 	width: 420px;
@@ -35,9 +92,19 @@ a:hover{
 .logoSmall{
 	width: 50px;
 	height: 50px;
+	display: inline;
 }
 
 .logoLarge{
 	width: 150px;
 	height: 150px;
+	display: inline;
+}
+
+.social{
+	display: inline;
+  float: center;
+  text-align: center;
+  width: 150px;
+	
 }
