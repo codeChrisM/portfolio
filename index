@@ -12,7 +12,6 @@
 	<header>
 		<a href = "#" id = ""></a>
 		<nav>
-			<img id="repeat" src="http://lowes.lghausysusa.com/content/com.LG.products.Product/28/Marta_Gray.jpg">
 			<a href = "#" id="navIcon"></a>
 			<ul>
 				<li><a href="#" class= "current">Home</a></li>
@@ -23,58 +22,61 @@
 			</ul>
 		</nav>
 	</header>	
-	<div id="titleBlock">
+	<section id="titleBlock">
 				<img class= bioPic src="http://drawntothis.com/wp-content/uploads/2011/01/Gerald_Dean_Batman.jpg">
 				<aside class="nameTitle">
 					<h1>Christopher Marlowe</h1><h1>codeing developer</h1>
 				</aside>
-	</div>
-
-	<section class= "linkImage">
+	</section>
+	<div class="clear"></div>
+	<div id= "linkImage">
 			
-		<div class= "linkImage">
+		<ul>
+		<li>
 			<a href="https://github.com/keyFrameM">
 			<img class= "logoLarge" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png"/>
 			</a>
 			<h3>GitHub</h3>
 			<p>See my code</p>	
-		</div>
+		</li>
 		
-		<div class= "linkImage">
+		
+		<li>
 			<a href="https://www.linkedin.com/in/christophermarlowe">
 				<img  class="logoLarge" src="http://pas-bplans.s3.amazonaws.com/tracking-weekly/logo_Linkedin.png" alt=LinkedIn/>
 			</a>
 			<h3>linkedIn</h3>
 			<p>Hire me!</p>
-		</div>
+		</li>
 
-		<div class= "linkImage">
+		<li>
 			<a href="https://www.codecademy.com/keyFrameM">
 			<img class="logoLarge" src="https://pbs.twimg.com/profile_images/497317564712636416/UPXtaIgD_400x400.png"/>
 			</a>
 			<h3>Codecademy</h3>
 			<p>Because... Why not?</p>
-		</div>
+		</li>
 
-		<div class= "linkImage">
+		<li>
 			<a href="https://www.codechris.com/blog">
 			<img class="logoLarge" src="http://findicons.com/files/icons/730/soft/128/rss.png"/>
 			</a>
 			<h3>Blog</h3>
 			<p>Like a really short book</p>
-		</div>
+		</li>
 
-		<div class= "linkImage">
+		<li>
 			<a href="https://www.youtube.com/user/MarloweAnimation">
 			<img class= "logoLarge" src="http://cdn.ndtv.com/tech/images/gadgets/thumb/youtube_app_logo_official_small.jpg"/>
 			</a>
 			<h3>Youtube</h3>
 			<p>Not a TV show</p>	
-		</div>
-	</section>
+		</li>
+		</ul>
+	</div>
 
-	<div class="clear"></div>
-	<section>
+
+	<div id="aboutMe">
 		<article>
 		<h2>About Me</h2>
 			<p>I enjoy creating things that don’t currently exist.   Solving problems and puzzles by thinking outside the box has been what has lead me to pursueing a career in Computer Programming.  
@@ -82,9 +84,9 @@
 			For personal hobbies I enjoy createing artwork from drawing to 3D Animation.  I am a marthon runner, dancer, and magician.
 			Lastly, favorite superhero is going to be Batman.</p>
 		</article>
-	</section>
+	</div>
 
-	<section>
+	<div id="knowledge">
 		<h2>Knowledge</h2>
 			<ul = "Knowledge">
 				<li><h3>HTML5 / CSS<h3></li>
