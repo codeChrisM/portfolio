@@ -10,6 +10,9 @@
 
 <body>
 	<header>
+		<section id="logoBar">
+		<img src="http://drawntothis.com/wp-content/uploads/2011/01/Gerald_Dean_Batman.jpg" style= "width:100px; hieght:100px; float:left; margin:0px" >
+		
 		<a href = "#" id = ""></a>
 		<nav>
 			<a href = "#" id="navIcon"></a>
@@ -21,10 +24,14 @@
 				<li><a href="#">Contact</a></li>
 			</ul>
 		</nav>
+		</section>
 	</header>	
+	<section id="logoBar">
+
+	</section>
 	<section id="titleBlock">
 				<img class= bioPic src="http://drawntothis.com/wp-content/uploads/2011/01/Gerald_Dean_Batman.jpg">
-				<aside class="nameTitle">
+				<aside id="nameTitle">
 					<h1>Christopher Marlowe</h1><h1>codeing developer</h1>
 				</aside>
 	</section>

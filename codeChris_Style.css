@@ -6,12 +6,16 @@
 header{
 	background-color: #444495;
 	width:100%;
-	height: 100px;
+	height: 75px;
 	position:fixed;
 	display: inline;
 	top:0;
 	left: 0;
 	z-index: 0;
+	border-bottom: solid gray;
+	border-width: 15px;
+	margin:0px;
+
 }
 h1{
 	font-family: "Arial Black", Gadget, sans-serif;
@@ -27,7 +31,13 @@ h2{
 h3{
 
 	font-family: "Arial Black", Gadget, sans-serif;
-	font-size: 15px;
+	font-size: 16px;
+}
+
+#logoBar{
+	background-color: #acf;
+	height:75px;
+	margin: 0px;
 }
 #linkImage{
   float: center;
@@ -44,19 +54,29 @@ h3{
 
 #aboutMe{
 	background-color: #123456;
-	height:300px;
+	height:400px;
 	float:left;
 	width: 50%;
+	font-family: "Arial Black", Gadget, sans-serif;
+
+}
+#aboutMe p{
+font-size: 16px;
+width:45%;
+
 }
 #knowledge{
 	background-color: #faa;
-	height:300px;
+	height:400px;
 	width: 50%;
 	float:right;
 }
 #experience{
 	background-color: #abc;
 	float:left;
+	text-align: left;
+	margin-top: 0px;
+	height: 400px;
 }
 
 p{
@@ -125,19 +145,21 @@ section{
 }
 
 #titleBlock{
-	background-color: #123456;
+	background-color: #acd123;
+	
 	margin-top: 100px;
-	height: 500px;
-	float:center;
-
+	margin: 0px;
+	height: 420px; <!-- lol -->
 }
-.nameTitle{
+#nameTitle{
 	float: left;
-	width: 100px;
+	text-align: left;
+	width: 400px;
 }
 .current{
 	color:#FFF;
 	text-decoration: underline;
+	float: left;
 }
 .bioPic{
 	width: 420px;
