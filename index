@@ -74,7 +74,7 @@
 		</li>
 		</ul>
 	</div>
-
+<div class="clear"></div>
 
 	<div id="aboutMe">
 		<article>
@@ -87,6 +87,7 @@
 	</div>
 
 	<div id="knowledge">
+		<article>
 		<h2>Knowledge</h2>
 			<ul = "Knowledge">
 				<li><h3>HTML5 / CSS<h3></li>
@@ -100,10 +101,12 @@
 				<li><h3>Sublime<h3></li>
 				<li><h3>Muse <h3></li>
 			</ul>
+		</article>	
+	</div>
 	</section>
 
 	<div class="clear"></div>	
-	<section>
+	<section id="experience">
 		<h2>Experience</h2>
 		<ul>
 			<li><h3>Lorem ipsum dolor sit amet enim</h3></li>
@@ -117,25 +120,34 @@
 
 
 	<footer>
-		<section>
+		<section id="footContact">
 		 	<h3><b>Christopher Marlowe</b></h3>
 		 	<p><b>847-650-8160</b></p>
 		 	<p><b>Chris@codeChris.com</b></p>
-		</section>
-		<section>
-			<h3>follow</h3>
-			<ul class= "social">
 			
-		<!--github-->
-		<a href = "#"><img class=logoSmall src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png"/></li>
-		<!--linkedIn-->
-		<img class=logoSmall src="http://pas-bplans.s3.amazonaws.com/tracking-weekly/logo_Linkedin.png"/></li>
-		<!--Codecademy-->
-		<img class=logoSmall src="https://d1qb2nb5cznatu.cloudfront.net/startups/i/57028-75249c08760cc9b8331013724066c538-medium_jpg.jpg?buster=1407971510"/></li>
-		<!--Blog-->
-		<img class=logoSmall src="http://findicons.com/files/icons/730/soft/128/rss.png"/></li>
-		<!--youtube-->
-		<img class=logoSmall src="http://cdn.ndtv.com/tech/images/gadgets/thumb/youtube_app_logo_official_small.jpg"/></li>
+		</section>	
+		<section id="followLinks">
+				<h3>follow</h3>
+			<ul class= "social">
+					<!--github-->
+					<li>
+					<a href="https://github.com/keyFrameM"><img class="logoSmall" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png"/>
+					</li>
+					<!--linkedIn-->
+					<li>
+					<a href="https://www.linkedin.com/in/christophermarlowe"><img class="logoSmall" src="http://pas-bplans.s3.amazonaws.com/tracking-weekly/logo_Linkedin.png"/>
+					</li>
+					<!--Codecademy-->
+					<li>
+					<a href="https://www.codecademy.com/keyFrameM"><img class="logoSmall" src="https://d1qb2nb5cznatu.cloudfront.net/startups/i/57028-75249c08760cc9b8331013724066c538-medium_jpg.jpg?buster=1407971510"/>
+					</li>
+					<!--Blog-->
+					<li>
+					<a href="https://www.codechris.com/blog"><img class="logoSmall" src="http://findicons.com/files/icons/730/soft/128/rss.png"/>
+					</li>
+					<!--youtube-->
+					<li><a href="https://www.youtube.com/user/MarloweAnimation"><img class="logoSmall" src="http://cdn.ndtv.com/tech/images/gadgets/thumb/youtube_app_logo_official_small.jpg"/>
+					</li>
 			</ul>
 		</section>	
 	</footer>
@@ -143,4 +155,7 @@
 
 
 </html>
+
+
+
 
