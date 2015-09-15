@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <head>
 <meta charset="utf-8"/>
 <title>CodeChris | Codeing Developer </title>
@@ -10,31 +11,39 @@
 
 <body>
 	<header>
-		<section id="logoBar">
-		<img src="http://drawntothis.com/wp-content/uploads/2011/01/Gerald_Dean_Batman.jpg" style= "width:100px; hieght:100px; float:left; margin:0px" >
+		<div id="logoBar">
+		<img src="http://drawntothis.com/wp-content/uploads/2011/01/Gerald_Dean_Batman.jpg" style="width:200px">
 		
 		<a href = "#" id = ""></a>
 		<nav>
 			<a href = "#" id="navIcon"></a>
 			<ul>
 				<li><a href="#" class= "current">Home</a></li>
-				<li> <a href="#">About Me</a></li>
-				<li><a href="#">Experience</a></li>
-				<li><a href="#">Knowledge</a></li>
-				<li><a href="#">Contact</a></li>
+				<li> <a href="#aboutMe">About Me</a></li>
+				<li><a href="#experience">Experience</a></li>
+				<li><a href="#knowledge">Knowledge</a></li>
+				<li><a href="#contact">Contact</a></li>
 			</ul>
 		</nav>
-		</section>
-	</header>	
-	<section id="logoBar">
+		</div>
+	</header>
 
-	</section>
-	<section id="titleBlock">
-				<img class= bioPic src="http://drawntothis.com/wp-content/uploads/2011/01/Gerald_Dean_Batman.jpg">
-				<aside id="nameTitle">
-					<h1>Christopher Marlowe</h1><h1>codeing developer</h1>
-				</aside>
-	</section>
+<section id="nameTitle">
+    <div id="one">
+        <img id="bioPic" src="http://drawntothis.com/wp-content/uploads/2011/01/Ger
+				ald_Dean_Batman.jpg"  >
+    </div>
+				
+		
+	</div>
+    <div id="two">
+        <h1 class="title"><br><br>Chris Marlowe <br>Codeing Developer
+		</h1>
+    </div>
+</section>
+
+
+
 	<div class="clear"></div>
 	<div id= "linkImage">
 			
@@ -81,6 +90,7 @@
 		</li>
 		</ul>
 	</div>
+	
 <div class="clear"></div>
 
 	<div id="aboutMe">

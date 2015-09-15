@@ -4,18 +4,16 @@
 }
 
 header{
-	background-color: #444495;
 	width:100%;
 	height: 75px;
 	position:fixed;
-	display: inline;
 	top:0;
 	left: 0;
 	z-index: 0;
 	border-bottom: solid gray;
 	border-width: 15px;
 	margin:0px;
-
+	opacity: .4;
 }
 h1{
 	font-family: "Arial Black", Gadget, sans-serif;
@@ -38,6 +36,7 @@ h3{
 	background-color: #acf;
 	height:75px;
 	margin: 0px;
+	
 }
 #linkImage{
   float: center;
@@ -54,10 +53,11 @@ h3{
 
 #aboutMe{
 	background-color: #123456;
-	height:400px;
+	height:350px;
 	float:left;
 	width: 50%;
 	font-family: "Arial Black", Gadget, sans-serif;
+	padding-top: 50px;
 
 }
 #aboutMe p{
@@ -66,16 +66,17 @@ width:45%;
 
 }
 #knowledge{
+	padding-top: 50px;
 	background-color: #faa;
-	height:400px;
+	height:350px;
 	width: 50%;
 	float:right;
 }
 #experience{
+	padding-top: 50px;
 	background-color: #abc;
 	float:left;
 	text-align: left;
-	margin-top: 0px;
 	height: 400px;
 }
 
@@ -105,19 +106,14 @@ article{
 	padding: 4%;
 }
 
-aside{
-	float:right;
-	margin: 0 auto;
-	height: auto;
-	padding: 3%;
-}
 #repeat{
 	height:20px;
 	background-repeat: repeat;
 }
 nav{
 	float:right;
-	padding: 35px 20px 20px 0
+	padding: 35px 20px 20px 0px;
+
 }
 #navIcon{
 	display:hidden;
@@ -137,35 +133,38 @@ nav ul li{
 	padding: 10px;
 }
 section{
-	
-	float: center;
 	margin: 2% 2%;
 	text-align: center;
-
 }
 
-#titleBlock{
-	background-color: #acd123;
-	
-	margin-top: 100px;
-	margin: 0px;
-	height: 420px; <!-- lol -->
+section#nameTitle{
+    width: 1000px;
+    height: 200px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    padding: 10px;
+
 }
-#nameTitle{
-	float: left;
-	text-align: left;
+#bioPic{
+	height: 400px;
 	width: 400px;
+	border-right: solid gray;
+	border-width: 10px;
+	float: left;
+
 }
+.title{
+	text-align: left;
+}
+
 .current{
 	color:#FFF;
 	text-decoration: underline;
 	float: left;
 }
-.bioPic{
-	width: 420px;
-	height: 420px;
-	float: left; 
-}
+
 
 .logoSmall{
 	width: 55px;
