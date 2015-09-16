@@ -1,4 +1,26 @@
 <!DOCTYPE html>
+<!--[if ! lt IE 9]><!-->
+<link rel="stylesheet" href="/css/default.css">
+<!--<![endif]-->
+
+<!--[if (IE 7)|(IE 8)]>
+<script src="/js/html5.js"></script>
+<script>
+   (function() {
+      var link = document.createElement("link");
+      link.rel = "stylesheet";
+      link.href = "/css/default.css";
+      document.getElementsByTagName("head")[0].appendChild(link);
+   }());
+</script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+<noscript>
+   <link rel="stylesheet" href="/css/legacy.css">
+</noscript>
+<![endif]-->
+
 <html>
 <head>
 <meta charset="utf-8"/>
@@ -37,7 +59,7 @@
 		
 	</div>
     <div id="two">
-        <h1 class="title"><br><br>Chris Marlowe <br>Codeing Developer
+        <h1 class="title">Chris Marlowe <br>Codeing Developer
 		</h1>
     </div>
 </section>
@@ -106,7 +128,7 @@
 	<div id="knowledge">
 		<article>
 		<h2>Knowledge</h2>
-			<ul = "Knowledge">
+			<ul>
 				<li><h3>HTML5 / CSS<h3></li>
 				<li><h3>JavaScript / Jquery<h3></li>
 				<li><h3>Java<h3></li>
