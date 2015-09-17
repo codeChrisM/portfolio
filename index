@@ -34,7 +34,7 @@
 <body>
 	<header>
 		<div id="logoBar">
-		<img src="http://drawntothis.com/wp-content/uploads/2011/01/Gerald_Dean_Batman.jpg" style="width:200px">
+		<img src="images/codeChris Logo.png" style="width:300px">
 		
 		<a href = "#" id = ""></a>
 		<nav>
@@ -89,15 +89,15 @@
 
 		<li>
 			<a href="https://www.codecademy.com/keyFrameM">
-			<img class="logoLarge" src="https://pbs.twimg.com/profile_images/497317564712636416/UPXtaIgD_400x400.png"/>
+			<img class="logoLarge" src="images/CodeCademy Logo.png"/>
 			</a>
 			<h3>Codecademy</h3>
 			<p>Because... Why not?</p>
 		</li>
 
 		<li>
-			<a href="https://www.codechris.com/blog">
-			<img class="logoLarge" src="http://findicons.com/files/icons/730/soft/128/rss.png"/>
+			<a href="http://www.codechris.com/blog">
+			<img class="logoLarge" src="images/Blog Logo.png"/>
 			</a>
 			<h3>Blog</h3>
 			<p>Like a really short book</p>
@@ -142,20 +142,31 @@
 			</ul>
 		</article>	
 	</div>
-	</section>
+
 
 	<div class="clear"></div>	
-	<section id="experience">
+	<div id="experience">
 		<h2>Experience</h2>
 		<ul>
-			<li><h3>Lorem ipsum dolor sit amet enim</h3></li>
-			<li><h3>Etiam ullamcorper</h3></li>
-			<li><h3>Suspendisse a pellentesque dui, non felis</h3></li>
-			<li><h3>Maecenas malesuada elit lectus felis, malesuada ultricies</h3></li>
-			<li><h3>Ut molestie a, ultricies porta urna </h3></li>
-			<li><h3>Vestibulum commodo volutpat</h3></li> 
+			<li>Lorem ipsum dolor sit amet enim</li>
+			<li>Etiam ullamcorper</li>
+			<li>Suspendisse a pellentesque dui, non felis</li>
+			<li>Maecenas malesuada elit lectus felis, malesuada ultricies</li>
+			<li>Ut molestie a, ultricies porta urna </li>
+			<li>Vestibulum commodo volutpat</li>
 		</ul>
-	</section>
+	</div>
+	<div id="experience2">
+		<h2>Experience</h2>
+		<ul>
+			<li>Lorem ipsum dolor sit amet enim</li>
+			<li>Etiam ullamcorper</li>
+			<li>Suspendisse a pellentesque dui, non felis</li>
+			<li>Maecenas malesuada elit lectus felis, malesuada ultricies</li>
+			<li>Ut molestie a, ultricies porta urna </li>
+			<li>Vestibulum commodo volutpat</li>
+		</ul>
+	</div>
 
 
 	<footer>
@@ -178,11 +189,11 @@
 					</li>
 					<!--Codecademy-->
 					<li>
-					<a href="https://www.codecademy.com/keyFrameM"><img class="logoSmall" src="https://d1qb2nb5cznatu.cloudfront.net/startups/i/57028-75249c08760cc9b8331013724066c538-medium_jpg.jpg?buster=1407971510"/>
+					<a href="https://www.codecademy.com/keyFrameM"><img class="logoSmall" src="images/CodeCademy Logo.png"/>
 					</li>
 					<!--Blog-->
 					<li>
-					<a href="https://www.codechris.com/blog"><img class="logoSmall" src="http://findicons.com/files/icons/730/soft/128/rss.png"/>
+					<a href="http://www.codechris.com/blog"><img class="logoSmall" src="images/Blog Logo.png"/>
 					</li>
 					<!--youtube-->
 					<li><a href="https://www.youtube.com/user/MarloweAnimation"><img class="logoSmall" src="http://cdn.ndtv.com/tech/images/gadgets/thumb/youtube_app_logo_official_small.jpg"/>
