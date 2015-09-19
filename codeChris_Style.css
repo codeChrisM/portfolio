@@ -45,12 +45,10 @@ h3{
 
 }
 
-#linkImage ul li:hover{
-	
-	padding-left: 50px;
-	padding-right: 50px;
-	position: relative;
-	top: 50px;
+#linkImage > ul > li > img:hover{
+	height: 200px;
+	position:relative;
+	top: -50px;
 }
 #aboutMe{
 	height:350px;
@@ -224,11 +222,25 @@ section#nameTitle{
 	height: 55px;
 }
 
-
-.logoLarge{
+.logoLarge {
+	display: inline;
 	width: 150px;
 	height: 150px;
-	display: inline;
+	line-height: 200px;
+    text-align: center;
+    -webkit-transition: .3s;
+}
+
+
+.logoLarge:nth-child(1):hover {
+    position: relative;
+    top: -5px;
+    -webkit-transform: scale(1.1);
+}
+
+.logoLarge:nth-child(1):active {
+
+    -webkit-transform: scale(.7);
 }
 
 
@@ -264,3 +276,7 @@ footer p a {
 	color:#FFF;
 	text-decoration: none;
 }
+
+
+
+
