@@ -72,16 +72,15 @@
 		<ul>
 		<li>
 			<a href="https://github.com/keyFrameM">
-			<img class= "logoLarge" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png"/>
+			<img class= "logoLarge" src="images/Github Logo.png"/>
 			</a>
 			<h3>GitHub</h3>
 			<p>See my code</p>	
 		</li>
 		
-		
 		<li>
 			<a href="https://www.linkedin.com/in/christophermarlowe">
-				<img  class="logoLarge" src="http://pas-bplans.s3.amazonaws.com/tracking-weekly/logo_Linkedin.png" alt=LinkedIn/>
+				<img  class="logoLarge" src="images/LinkedIn Logo.png" alt=LinkedIn/>
 			</a>
 			<h3>linkedIn</h3>
 			<p>Hire me!</p>
@@ -105,7 +104,7 @@
 
 		<li>
 			<a href="https://www.youtube.com/user/MarloweAnimation">
-			<img class= "logoLarge" src="http://cdn.ndtv.com/tech/images/gadgets/thumb/youtube_app_logo_official_small.jpg"/>
+			<img class= "logoLarge" src="images/Youtube Logo.png"/>
 			</a>
 			<h3>Youtube</h3>
 			<p>Not a TV show</p>	
@@ -167,26 +166,6 @@
 			<li>Vestibulum commodo volutpat</li>
 		</ul>
 	</div>
-
-
-<div>1</div>
-
-
-
-<div>2</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 	<footer>
 		<section id="footContact">
