@@ -41,7 +41,7 @@
 			<a href = "#" id="navIcon"></a>
 			<ul>
 				<li><a href="#" class= "current">Home</a></li>
-				<li> <a href="#aboutMe">About Me</a></li>
+				<li> <a href="#aboutMe" >About Me</a></li>
 				<li><a href="#experience">Experience</a></li>
 				<li><a href="#knowledge">Knowledge</a></li>
 				<li><a href="#contact">Contact</a></li>
@@ -52,8 +52,7 @@
 
 <section id="nameTitle">
     <div id="one">
-        <img id="bioPic" src="http://drawntothis.com/wp-content/uploads/2011/01/Ger
-				ald_Dean_Batman.jpg"  >
+        <img id="bioPic" src="images/bio pic 2.png"  >
     </div>
 				
 		
@@ -69,7 +68,7 @@
 	<div class="clear"></div>
 	<div id= "linkImage">
 			
-		<ul>
+		<ul> 
 		<li>
 			<a href="https://github.com/keyFrameM">
 			<img class= "logoLarge" src="images/Github Logo.png"/>
@@ -129,15 +128,16 @@
 		<h2>Knowledge</h2>
 			<ul>
 				<li><h3>HTML5 / CSS<h3></li>
-				<li><h3>JavaScript / Jquery<h3></li>
+				<li><a href="https://github.com/keyFrameM"><h3>JavaScript/ Jquery / Coffee Script</a> <h3></li>
 				<li><h3>Java<h3></li>
 				<li><h3>VBA / VBScript<h3></li>
-				<li><h3>GitHub<h3></li>
+				<li><a href="https://github.com/keyFrameM"><h3>GitHub<h3></a></li>
 				<li><h3>Terminal / Compand Line<h3></li>
 				<li><h3>C / C++ /C #<h3></li>
 				<li><h3>Ruby<h3></li>
 				<li><h3>Sublime<h3></li>
-				<li><h3>Muse <h3></li>
+				<li><a href="https://www.marloweanimation.com"><h3>Muse <h3></a></li>
+				<li><h3>Regular Expressions <h3></li>
 			</ul>
 		</article>	
 	</div>
@@ -179,11 +179,11 @@
 			<ul class= "social">
 					<!--github-->
 					<li>
-					<a href="https://github.com/keyFrameM"><img class="logoSmall" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png"/>
+					<a href="https://github.com/keyFrameM"><img class="logoSmall" src="images/Github Logo.png"/>
 					</li>
 					<!--linkedIn-->
 					<li>
-					<a href="https://www.linkedin.com/in/christophermarlowe"><img class="logoSmall" src="http://pas-bplans.s3.amazonaws.com/tracking-weekly/logo_Linkedin.png"/>
+					<a href="https://www.linkedin.com/in/christophermarlowe"><img class="logoSmall" src="images/LinkedIn Logo.png"/>
 					</li>
 					<!--Codecademy-->
 					<li>
@@ -194,7 +194,7 @@
 					<a href="http://www.codechris.com/blog"><img class="logoSmall" src="images/Blog Logo.png"/>
 					</li>
 					<!--youtube-->
-					<li><a href="https://www.youtube.com/user/MarloweAnimation"><img class="logoSmall" src="http://cdn.ndtv.com/tech/images/gadgets/thumb/youtube_app_logo_official_small.jpg"/>
+					<li><a href="https://www.youtube.com/user/MarloweAnimation"><img class="logoSmall" src="images/Youtube Logo.png"/>
 					</li>
 			</ul>
 		</section>	
