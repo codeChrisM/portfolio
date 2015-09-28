@@ -1,3 +1,7 @@
+section, article, header, footer, nav, aside, hgroup {
+ display: block;
+} 
+
 *{
 	margin: 0px;
 	padding: 0px;
@@ -27,8 +31,31 @@ h2{
 h3{
 	font-family: "Arial Black", Gadget, sans-serif;
 	font-size: 16px;
+
+}
+#AdLearning{
+	height: auto;
+	border-style: solid;
+    border-color: red;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	margin-left: 10%;
+	margin-right: 10%;
+
 }
 
+#Projects{
+	border-style: solid;
+    border-color: green;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+#Projects ul li{
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 16px;
+}
 #logoBar{
 	margin-left: 10%;
 	padding-top: 5px;
@@ -51,11 +78,14 @@ h3{
 	top: -50px;
 }
 #aboutMe{
+	border-style: solid;
+    border-color: red;
 	height:350px;
 	float:left;
 	width: 50%;
 	font-family: "Arial Black", Gadget, sans-serif;
 	padding-top: 50px;
+	padding-right: 
 }
 #aboutMe p{
 	font-size: 16px;
@@ -67,15 +97,13 @@ h3{
 #aboutMe article h2{
 	text-align: left;
 	margin-left: 25%;
-
 }
 
 #knowledge{
 	padding-top: 50px;
-
 	height:350px;
-	width: 50%;
-	float:right;
+	width: auto;
+	float:left;
 }
 
 #knowledge article{
@@ -109,7 +137,9 @@ h3{
 }
 #experience ul li{
 	margin-left: 30%;
-
+	list-style-type: circle;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 #experience2{
 	height:350px;
@@ -117,6 +147,11 @@ h3{
 	width: 50%;
 	font-family: "Arial Black", Gadget, sans-serif;
 	padding-top: 50px;
+}
+#experience2 ul li{
+	list-style-type: circle;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 
@@ -134,8 +169,8 @@ a{
 
 a:hover{
 	color:#6c9ce4;
-
 }
+
 .clear
 {
 	clear: both;
@@ -163,6 +198,15 @@ nav ul li{
 	padding: 10px;
 	margin-top: -35px;
 	color: #696969
+}
+nav a{
+	color: black;
+}
+nav a:visited{
+	color:black;
+}
+nav a:hover{
+	color:#6c9ce4;
 }
 .current{
 	color:#2d2d2e;
@@ -192,7 +236,6 @@ section{
 section#nameTitle{
     width: 529px;
     height: 200px;
-
     margin-left: auto;
     margin-right: auto;
     margin-top: 90px;
@@ -202,8 +245,7 @@ section#nameTitle{
 #bioPic{
 	height: 250px;
 	width: 250px;
-	border-right: solid #696969;
-	border-width: 10px;
+	margin-right:  10px;
 	float: left;
 
 }
@@ -229,7 +271,7 @@ section#nameTitle{
 	width: 150px;
 	height: 150px;
 	line-height: 200px;
-    text-align: center;
+	background-color: #e3ebeb;
     -webkit-transition: .3s;
 }
 
@@ -241,7 +283,6 @@ section#nameTitle{
 }
 
 .logoLarge:nth-child(1):active {
-
     -webkit-transform: scale(.7);
 }
 
@@ -252,8 +293,9 @@ section#nameTitle{
 	margin-right: auto;
 	width: auto;
 	height: 65px;
-	top:-25px;
+	top:-40px;
 	background-color: #e3ebeb;
+
 }
 #followLinks ul li{
 	display: inline-block;
@@ -261,16 +303,18 @@ section#nameTitle{
 	position: relative;
 	top:-20px;
 	background-color: #e3ebeb;
-	height: 30px
+	height: 30px;
 }
 
 #footContact{
 	padding-top:5px;
+	padding-bottom: 5px;
 	margin: 0px;
+	font-size: 25px;
 }
 
 footer{
-	background: #333333;
+	background: #696969;
 	width: 100%;
 	overflow:hidden;
 	height: 180px;

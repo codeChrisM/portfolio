@@ -1,25 +1,9 @@
 <!DOCTYPE html>
-<!--[if ! lt IE 9]><!-->
-<link rel="stylesheet" href="/css/default.css">
-<!--<![endif]-->
-
-<!--[if (IE 7)|(IE 8)]>
-<script src="/js/html5.js"></script>
-<script>
-   (function() {
-      var link = document.createElement("link");
-      link.rel = "stylesheet";
-      link.href = "/css/default.css";
-      document.getElementsByTagName("head")[0].appendChild(link);
-   }());
-</script>
-<![endif]-->
-
-<!--[if lt IE 9]>
-<noscript>
-   <link rel="stylesheet" href="/css/legacy.css">
-</noscript>
-<![endif]-->
+<!--[if IE]>
+ <script src=
+ "http://html5shiv.googlecode.com/svn/trunk/html5.js">
+ </script>
+<![endif]--> 
 
 <html>
 <head>
@@ -40,10 +24,11 @@
 		<nav>
 			<a href = "#" id="navIcon"></a>
 			<ul>
-				<li><a href="#" class= "current">Home</a></li>
+				<li><a href="#" >Home</a></li>
 				<li> <a href="#aboutMe" >About Me</a></li>
-				<li><a href="#experience">Experience</a></li>
 				<li><a href="#knowledge">Knowledge</a></li>
+				<li><a href="#Projects">Projects</a></li>
+				<li><a href="#experience">Experience</a></li>
 				<li><a href="#contact">Contact</a></li>
 			</ul>
 		</nav>
@@ -102,7 +87,7 @@
 		</li>
 
 		<li>
-			<a href="https://www.youtube.com/user/MarloweAnimation">
+			<a href="https://www.youtube.com/channel/UCPq8BlC_MR6w3QmUJpg22nQ">
 			<img class= "logoLarge" src="images/Youtube Logo.png"/>
 			</a>
 			<h3>Youtube</h3>
@@ -127,14 +112,14 @@
 		<article>
 		<h2>Knowledge</h2>
 			<ul>
-				<li><h3>HTML5 / CSS<h3></li>
+				<li><h3>HTML / HTML5 / CSS<h3></li>
 				<li><a href="https://github.com/keyFrameM"><h3>JavaScript/ Jquery / Coffee Script</a> <h3></li>
+				<li><h3>Python<h3></li>
 				<li><h3>Java<h3></li>
 				<li><h3>VBA / VBScript<h3></li>
 				<li><a href="https://github.com/keyFrameM"><h3>GitHub<h3></a></li>
 				<li><h3>Terminal / Compand Line<h3></li>
-				<li><h3>C / C++ /C #<h3></li>
-				<li><h3>Ruby<h3></li>
+				<li><h3>Ajax / JSON<h3></li>
 				<li><h3>Sublime<h3></li>
 				<li><a href="https://www.marloweanimation.com"><h3>Muse <h3></a></li>
 				<li><h3>Regular Expressions <h3></li>
@@ -142,34 +127,48 @@
 		</article>	
 	</div>
 
-
-	<div class="clear"></div>	
+	<div class="clear"></div>
+	<div id="Projects">
+		<h2>Personal Projects</h2>
+		<ul>
+			<li><a href= "http://github.com/keyFrameM/apartment">Apartment Comparison</a><br>&nbsp tool that  evaluates the true value of an apartment for an individual, accounting for variables such as what specific utilities are included.  Also accounts for if things like laundry,  parking, and other "non- essentials" can be taken into account.</li>
+			<li>&nbsp</li>
+			<li><a href= "http://github.com/keyFrameM/CarCompareTool">Car Comparison tool</a><br>&nbsp Takes into the account the current milage of a car, the price of gas, distance to work, Miles per gallon and other factors to estimate the approximate life of the car.</li>
+			<li>&nbsp</li>
+			<li><a href= "http://github.com/keyFrameM/CoverLetterGenerator">Unique Keyword triggered Cover Letter generator</a><br>&nbsp tool with a basic GUI that allows me to custom tailer a cover letter to a companies driven key words to while still maintaining the flow of properly written English.</li>
+			<li>&nbsp</li>
+			<li><a href= "https://github.com/keyFrameM/portfolio">My Codeing Website</a><br>&nbsp Purposely Created useing no Frame Work and just relying on knowldege of HTML and CSS to have a fully functional site.
+			</li>
+			<li>&nbsp</li>
+			<li><a href= "http://www.marloweanimation.com">My Animation Website</a><br>&nbsp Created via muse and includes some additional scripts of code for more interactive features</li>
+		</ul>
+	</div>	
+	<div class="clear"></div>
 	<div id="experience">
 		<h2>Experience</h2>
 		<ul>
-			<li>Lorem ipsum dolor sit amet enim</li>
-			<li>Etiam ullamcorper</li>
-			<li>Suspendisse a pellentesque dui, non felis</li>
-			<li>Maecenas malesuada elit lectus felis, malesuada ultricies</li>
-			<li>Ut molestie a, ultricies porta urna </li>
-			<li>Vestibulum commodo volutpat</li>
+			<li>Debugging Legacy Code</li>
+			<li>Developed VBA tool to decrease  over 800 work hours annually.</li>
+			<li>Developed Tool to Evaluate True Apartment Comparison.</li>
+			<li>Developed Tool to Help Elect better Car Choice.</li>
+			<li>Developed Tool to Automate Custom Tailored Cover Letters.</li>
+
 		</ul>
 	</div>
 	<div id="experience2">
-		<h2>Experience</h2>
+		<h2>______________</h2>
 		<ul>
-			<li>Lorem ipsum dolor sit amet enim</li>
-			<li>Etiam ullamcorper</li>
-			<li>Suspendisse a pellentesque dui, non felis</li>
-			<li>Maecenas malesuada elit lectus felis, malesuada ultricies</li>
-			<li>Ut molestie a, ultricies porta urna </li>
-			<li>Vestibulum commodo volutpat</li>
+			<li>Experience Contributing and optimizing Different Company Workflows.</li>
+			<li>Experience with Daily and Weekly Critiques of my work. </li>
+			<li>Animation, Video, and Production Background
+			</li>
+			<li>Leadership Experience of both Small and Large teams.</li>
 		</ul>
 	</div>
 
 	<footer>
 		<section id="footContact">
-		 	<h3><b>Christopher Marlowe</b></h3>
+		 	<p><b>Christopher Marlowe</b></p>
 		 	<p><b>847-650-8160</b></p>
 		 	<p><b>Chris@codeChris.com</b></p>
 			
@@ -177,7 +176,7 @@
 		<section id="followLinks">
 				<h3>follow</h3>
 			<ul class= "social">
-					<!--github-->
+					<!--git-->
 					<li>
 					<a href="https://github.com/keyFrameM"><img class="logoSmall" src="images/Github Logo.png"/>
 					</li>
