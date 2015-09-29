@@ -107,8 +107,24 @@
 			Lastly, favorite superhero is going to be Batman.</p>
 		</article>
 	</div>
-
-	<div id="knowledge">
+	<div class="clear"></div>
+	<div id="Projects">
+		<h2>Personal Projects</h2>
+		<ul>
+			<li><a href= "http://github.com/keyFrameM/apartment">Apartment Comparison</a><br>&nbsp tool that  evaluates the true value of an apartment for an individual, accounting for variables such as what specific utilities are included.  Also accounts for if things like laundry,  parking, and other "non- essentials" can be taken into account.</li>
+			<li>&nbsp</li>
+			<li><a href= "http://github.com/keyFrameM/CarCompareTool">Car Comparison tool</a><br>&nbsp Takes into the account the current milage of a car, the price of gas, distance to work, Miles per gallon and other factors to estimate the approximate life of the car.</li>
+			<li>&nbsp</li>
+			<li><a href= "http://github.com/keyFrameM/CoverLetterGenerator">Unique Keyword triggered Cover Letter generator</a><br>&nbsp tool with a basic GUI that allows me to custom tailer a cover letter to a companies driven key words to while still maintaining the flow of properly written English.</li>
+			<li>&nbsp</li>
+			<li><a href= "https://github.com/keyFrameM/portfolio">My Codeing Website</a><br>&nbsp Purposely Created useing no Frame Work and just relying on knowldege of HTML and CSS to have a fully functional site.
+			</li>
+			<li>&nbsp</li>
+			<li><a href= "http://www.marloweanimation.com">My Animation Website</a><br>&nbsp Created via muse and includes some additional scripts of code for more interactive features</li>
+		</ul>
+	</div>	
+	<div id="knowledgeWrapper">
+	<div class="knowledge">
 		<article>
 		<h2>Knowledge</h2>
 			<ul>
@@ -126,23 +142,18 @@
 			</ul>
 		</article>	
 	</div>
-
+	<div class="knowledge">
+		<article>
+		<h2>Also Learning</h2>
+			<ul>
+				<li><h3>Android<h3></li>
+				<li><h3>C and C++<h3></li>
+			</ul>
+		</article>	
+	</div>
+</div>
 	<div class="clear"></div>
-	<div id="Projects">
-		<h2>Personal Projects</h2>
-		<ul>
-			<li><a href= "http://github.com/keyFrameM/apartment">Apartment Comparison</a><br>&nbsp tool that  evaluates the true value of an apartment for an individual, accounting for variables such as what specific utilities are included.  Also accounts for if things like laundry,  parking, and other "non- essentials" can be taken into account.</li>
-			<li>&nbsp</li>
-			<li><a href= "http://github.com/keyFrameM/CarCompareTool">Car Comparison tool</a><br>&nbsp Takes into the account the current milage of a car, the price of gas, distance to work, Miles per gallon and other factors to estimate the approximate life of the car.</li>
-			<li>&nbsp</li>
-			<li><a href= "http://github.com/keyFrameM/CoverLetterGenerator">Unique Keyword triggered Cover Letter generator</a><br>&nbsp tool with a basic GUI that allows me to custom tailer a cover letter to a companies driven key words to while still maintaining the flow of properly written English.</li>
-			<li>&nbsp</li>
-			<li><a href= "https://github.com/keyFrameM/portfolio">My Codeing Website</a><br>&nbsp Purposely Created useing no Frame Work and just relying on knowldege of HTML and CSS to have a fully functional site.
-			</li>
-			<li>&nbsp</li>
-			<li><a href= "http://www.marloweanimation.com">My Animation Website</a><br>&nbsp Created via muse and includes some additional scripts of code for more interactive features</li>
-		</ul>
-	</div>	
+	
 	<div class="clear"></div>
 	<div id="experience">
 		<h2>Experience</h2>
