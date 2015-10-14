@@ -30,7 +30,7 @@
 					<img src="images/codeChris Logo.png"  class="navbar-brand">
 				</div>
 				<!--menu-->
-			<div class="collapse navbar-collapse" id="mainNavbar">
+			<div class="collapse navbar-collapse navbar-right" id="mainNavbar">
 			<ul class ="nav navbar-nav">
 				<li class="active"><a href="#" >Home</a></li>
 				<li> <a href="#aboutMe" >About Me</a></li>
@@ -46,7 +46,48 @@
 			</ul>
 			
 		</nav>
-    <h1>Hello, world!</h1>
+
+
+<div class="row">
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-2</div>
+  <div class="col-md-1">.col-md-3</div>
+  <div class="col-md-1">.col-md-4</div>
+  <div class="col-md-1">.col-md-5</div>
+  <div class="col-md-1">.col-md-6</div>
+  <div class="col-md-1">.col-md-7</div>
+  <div class="col-md-1">.col-md-8</div>
+  <div class="col-md-1">.col-md-9</div>
+  <div class="col-md-1">.col-md-10</div>
+  <div class="col-md-1">.col-md-11</div>
+  <div class="col-md-1">.col-md-12</div>
+</div>
+
+<div class="row">
+  <div class="col-xs-1 col-sm-1 col-md-3">.col-md-3</div>
+  <div class="col-xs-5 col-sm-5 col-md-3"><img id="bioPic" src="images/bio pic 2.png" class="img-rounded img-responsive" ></div>
+
+  <div class="col-xs-5 col-sm-5 col-md-3"><h1 id="two" style="background:blue">Chris Marlowe <br>Codeing Developer 
+		</h1></div>
+  <div class="col-xs-1 col-sm-1 col-md-3">.col-md-3</div>
+</div>
+
+<div class="row">
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-2</div>
+  <div class="col-md-1">.col-md-3</div>
+  <div class="col-md-1">.col-md-4</div>
+  <div class="col-md-1">.col-md-5</div>
+  <div class="col-md-1">.col-md-6</div>
+  <div class="col-md-1">.col-md-7</div>
+  <div class="col-md-1">.col-md-8</div>
+  <div class="col-md-1">.col-md-9</div>
+  <div class="col-md-1">.col-md-10</div>
+  <div class="col-md-1">.col-md-11</div>
+  <div class="col-md-1">.col-md-12</div>
+</div>
+
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
