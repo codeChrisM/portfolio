@@ -170,6 +170,27 @@
   </div>
 </div>
 
+<div class="row">
+  <div class="col-xs-0 col-sm-0 col-md-2 col-lg-2"></div>
+  <div id="Projects" class="col-xs-12 col-sm-12 col-md-10 col-lg-8">
+    <h2>Personal Projects</h2>
+    <ul>
+      <li><a href= "http://github.com/keyFrameM/apartment">Apartment Comparison</a><br>&nbsp tool that  evaluates the true value of an apartment for an individual, accounting for variables such as what specific utilities are included.  Also accounts for if things like laundry,  parking, and other "non- essentials" can be taken into account.</li>
+      <li>&nbsp</li>
+      <li><a href= "http://github.com/keyFrameM/CarCompareTool">Car Comparison tool</a><br>&nbsp Takes into the account the current milage of a car, the price of gas, distance to work, Miles per gallon and other factors to estimate the approximate life of the car.</li>
+      <li>&nbsp</li>
+      <li><a href= "http://github.com/keyFrameM/CoverLetterGenerator">Unique Keyword triggered Cover Letter generator</a><br>&nbsp tool with a basic GUI that allows me to custom tailer a cover letter to a companies driven key words to while still maintaining the flow of properly written English.</li>
+      <li>&nbsp</li>
+      <li><a href= "https://github.com/keyFrameM/portfolio">My Codeing Website</a><br>&nbsp Purposely Created useing no Frame Work and just relying on knowldege of HTML and CSS to have a fully functional site.
+      </li>
+      <li>&nbsp</li>
+      <li><a href= "http://www.marloweanimation.com">My Animation Website</a><br>&nbsp Created via muse and includes some additional scripts of code for more interactive features</li>
+    </ul>
+  </div> 
+  <div class="col-xs-0 col-sm-0 col-md-2 col-lg-1"></div> 
+
+</div>
+
 
 
 
