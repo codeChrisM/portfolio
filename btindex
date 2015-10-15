@@ -155,6 +155,36 @@
 </div>
 
 
+<!--about me-->
+<div class="row">
+  <div id="aboutMe">
+    <div class="col-lg-3"></div>
+    <article class="col-sm-12 col-md-12 col-lg-6">
+      <h2>About Me</h2>
+        <p>I enjoy creating things that don’t currently exist.   Solving problems and puzzles by thinking outside the box has been what has lead me to pursueing a career in Computer Programming.  
+
+        For personal hobbies I enjoy createing artwork from drawing to 3D Animation.  I am a marthon runner, dancer, and magician.
+        Lastly, favorite superhero is going to be Batman.</p>
+      </article>
+    <div class="col-lg-3"></div>
+  </div>
+</div>
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+
+
+
+
+
+
+
 
 
 
