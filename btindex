@@ -66,8 +66,8 @@
 
 <!--BIO / TITLE -->
 <div class="row"
->  <div class="col-xs-1 col-sm-1 col-md-3">.col-md-3</div>
-  <div class="col-xs-5 col-sm-5 col-md-3"><img id="bioPic" src="images/bio pic 2.png" class="img-rounded img-responsive" ></div>
+>  <div class="col-xs-1 col-sm-1 col-md-4">.col-md-3</div>
+  <div class="col-xs-5 col-sm-5 col-md-2"><img id="bioPic" src="images/bio pic 2.png" class="img-rounded img-responsive" ></div>
 
   <div class="col-xs-5 col-sm-5 col-md-3"><h1 id="two" style="background:blue">Chris Marlowe <br>Codeing Developer 
 		</h1></div>
@@ -93,7 +93,7 @@
 <!--ICON ROW -->
 <div class= "row">
         <div class="col-xs-0 col-sm-1 col-md-0 col-lg-2"></div>
-        <ul class="col-xs-12 col-sm-12 col-md-10 col-lg-8" style="background:black"> 
+        <ul class="col-xs-12 col-sm-12 col-md-10 col-lg-8" > 
         <li class="col-xs-0 col-sm-1 col-md-1">
         <li class="col-xs-6 col-sm-2 col-md-2">
           <a href="https://github.com/keyFrameM">
@@ -158,21 +158,22 @@
 <!--about me-->
 <div class="row">
   <div id="aboutMe">
-    <div class="col-lg-3"></div>
-    <article class="col-sm-12 col-md-12 col-lg-6">
+    <div class=" col-xs-1 col-sm-1 col-md-1 col-lg-3"></div>
+    <article class="col-xs-10 col-sm-10 col-md-10 col-lg-6">
       <h2>About Me</h2>
         <p>I enjoy creating things that don’t currently exist.   Solving problems and puzzles by thinking outside the box has been what has lead me to pursueing a career in Computer Programming.  
 
         For personal hobbies I enjoy createing artwork from drawing to 3D Animation.  I am a marthon runner, dancer, and magician.
         Lastly, favorite superhero is going to be Batman.</p>
       </article>
-    <div class="col-lg-3"></div>
+    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-3"></div>
   </div>
 </div>
 
+<!--PROJECTS-->
 <div class="row">
-  <div class="col-xs-0 col-sm-0 col-md-2 col-lg-2"></div>
-  <div id="Projects" class="col-xs-12 col-sm-12 col-md-10 col-lg-8">
+  <div class="col-xs-1 col-sm-1 col-md-1 col-lg-2"></div>
+  <div id="Projects" class="col-xs-10 col-sm-10 col-md-10 col-lg-8">
     <h2>Personal Projects</h2>
     <ul>
       <li><a href= "http://github.com/keyFrameM/apartment">Apartment Comparison</a><br>&nbsp tool that  evaluates the true value of an apartment for an individual, accounting for variables such as what specific utilities are included.  Also accounts for if things like laundry,  parking, and other "non- essentials" can be taken into account.</li>
@@ -187,7 +188,92 @@
       <li><a href= "http://www.marloweanimation.com">My Animation Website</a><br>&nbsp Created via muse and includes some additional scripts of code for more interactive features</li>
     </ul>
   </div> 
-  <div class="col-xs-0 col-sm-0 col-md-2 col-lg-1"></div> 
+  <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div> 
+</div>
+
+<!--GRID REF-->
+<div class="row">
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-2</div>
+  <div class="col-md-1">.col-md-3</div>
+  <div class="col-md-1">.col-md-4</div>
+  <div class="col-md-1">.col-md-5</div>
+  <div class="col-md-1">.col-md-6</div>
+  <div class="col-md-1">.col-md-7</div>
+  <div class="col-md-1">.col-md-8</div>
+  <div class="col-md-1">.col-md-9</div>
+  <div class="col-md-1">.col-md-10</div>
+  <div class="col-md-1">.col-md-11</div>
+  <div class="col-md-1">.col-md-12</div>
+</div>
+
+
+
+
+
+<!--Knowledge-->
+<div class= "row">
+  <div class="col-xs-1 col-sm-1 col-md-3 col-lg-3"></div>
+
+  <div class="knowledge col-xs-4 col-sm-3 col-md-4 col-lg-3">
+    <article>
+    <h2>Knowledge</h2>
+      <ul>
+        <li><h3>HTML / HTML5 / CSS<h3></li>
+        <li><a href="https://github.com/keyFrameM"><h3>JavaScript/ Jquery / Coffee Script</a> <h3></li>
+        <li><h3>Python<h3></li>
+        <li><h3>Java<h3></li>
+        <li><h3>VBA / VBScript<h3></li>
+        <li><a href="https://github.com/keyFrameM"><h3>GitHub<h3></a></li>
+        <li><h3>Terminal / Compand Line<h3></li>
+        <li><h3>Ajax / JSON<h3></li>
+        <li><h3>Sublime<h3></li>
+        <li><a href="https://www.marloweanimation.com"><h3>Muse <h3></a></li>
+        <li><h3>Regular Expressions <h3></li>
+      </ul>
+    </article>  
+  </div>
+
+  <div class="knowledge col-xs-4 col-sm-2 col-md-3 col-lg-4">
+    <article>
+    <h2>Also Learning</h2>
+      <ul>
+        <li><h3>Android<h3></li>
+        <li><h3>C and C++<h3></li>
+      </ul>
+    </article>  
+ </div>
+<div class="col-xs-1 col-sm-1 col-md-1 col-lg-3"></div>
+</div>
+
+
+<!-- Experience-->
+<div class="row">
+  <div class="col-xs-0 col-sm-0 col-md-1 col-lg-2"></div>
+    
+    <div id="experience" class="col-xs-0 col-sm-0 col-md-4 col-lg-4">
+      <h2>Experience</h2>
+      <ul>
+        <li>Debugging Legacy Code</li>
+        <li>Developed VBA tool to decrease  over 800 work hours annually.</li>
+        <li>Developed Tool to Evaluate True Apartment Comparison.</li>
+        <li>Developed Tool to Help Elect better Car Choice.</li>
+        <li>Developed Tool to Automate Custom Tailored Cover Letters.</li>
+      </ul>
+    </div>
+
+    <div id="experience2" class="col-xs-0 col-sm-0 col-md-4 col-lg-4">
+      <h2>______________</h2>
+      <ul>
+        <li>Experience Contributing and optimizing Different Company Workflows.</li>
+        <li>Experience with Daily and Weekly Critiques of my work. </li>
+        <li>Animation, Video, and Production Background
+        </li>
+        <li>Leadership Experience of both Small and Large teams.</li>
+      </ul>
+    </div>
+  
+  <div class="col-xs-0 col-sm-0 col-md-2 col-lg-2"></div>
 
 </div>
 
