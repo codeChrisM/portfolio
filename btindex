@@ -27,21 +27,23 @@
 			<div class="container-fluid">
 				<!--logo-->
 				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavbar">				
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavbar" style="background-color:#e3ebeb">				
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<img src="images/codeChris Logo.png"  class="navbar-brand">
+
+					<img src="images/codeChris Logo.png"  class="navbar-brand img-rounded"> </image>
 				</div>
 				<!--menu-->
 			<div class="collapse navbar-collapse navbar-right" id="mainNavbar">
 			<ul class ="nav navbar-nav">
-				<li class="active"><a href="#" >Home</a></li>
+				<li><a href="#" >Home</a></li>
 				<li> <a href="#aboutMe" >About Me</a></li>
 				<li><a href="#knowledge">Knowledge</a></li>
+        <!--menu dropdown-->
 				<li><a class="dropdown" data-toggle="dropdown">Projects<span class="caret"></span></a>
-					<ul class="dropdown-menu">
+					<ul id="test" class="dropdown-menu">
 						<li><a href="#Apartment Comparison">Apartment Comparison</a></li>
 						<li><a href="#CarCompare">Car Comparison Tool</a></li>
 						<li><a href="#CoverLetterGen">Cover Letter Genartor</a></li>
@@ -61,7 +63,7 @@
 >  <div class="col-xs-1 col-sm-2 col-md-3 col-lg-4 vcenter"></div>
   <div class="col-xs-5 col-sm-4 col-md-3 col-lg-2 vcenter"><img id="bioPic" src="images/bio pic 2.png" class="img-rounded img-responsive" ></div>
 
-  <div class="col-xs-5 col-sm-5 col-md-3 col-lg-2 vcenter "><h1 style="color:#2d2d2e">Chris Marlowe <br> <span style="color: #6c9ce4">Code Developer</span>
+  <div class="col-xs-5 col-sm-5 col-md-3 col-lg-2 vcenter "><h1 style="color:#2d2d2e" style="font-size:20%">Chris Marlowe <br> <span style="color: #6c9ce4">Code Developer</span>
 		</h1></div>
   <div class="col-xs-1 col-sm-1 col-md-3 col-lg-4 vcenter"></div>
 </div>
@@ -136,16 +138,16 @@
   <div id="Projects" class="col-xs-10 col-sm-10 col-md-10 col-lg-8">
     <h2>Personal Projects</h2>
     <ul>
-      <li class="topSpace" ID="Apartment Comparison"><a href= "http://github.com/keyFrameM/apartment">Apartment Comparison</a><br>&nbsp tool that  evaluates the true value of an apartment for an individual, accounting for variables such as what specific utilities are included.  Also accounts for if things like laundry,  parking, and other "non- essentials" can be taken into account.</li>
+      <li class="topSpace" ID="Apartment Comparison"><a href= "http://github.com/keyFrameM/apartment">Apartment Comparison Tool</a>&nbsp <p> &nbsp Tool that  evaluates the true value of an apartment for an individual. Accounts for variables such as utilities, laundry,  parking, and other "non- essentials".</p></li>
       <li>&nbsp</li>
-      <li class="topSpace" id="CarCompare"><a href= "http://github.com/keyFrameM/CarCompareTool">Car Comparison tool</a><br>&nbsp Takes into the account the current milage of a car, the price of gas, distance to work, Miles per gallon and other factors to estimate the approximate life of the car.</li>
+      <li class="topSpace" id="CarCompare"><a href= "http://github.com/keyFrameM/CarCompareTool">Car Comparison Tool</a><br>&nbsp Estimates approximate life of a car by accounting for current milage, price of gas, distance to work, miles per gallon of the vehicle, and other factors.</li>
       <li>&nbsp</li>
-      <li class="topSpace" id="CoverLetterGen"><a href= "http://github.com/keyFrameM/CoverLetterGenerator">Unique Keyword triggered Cover Letter generator</a><br>&nbsp tool with a basic GUI that allows me to custom tailer a cover letter to a companies driven key words to while still maintaining the flow of properly written English.</li>
+      <li class="topSpace" id="CoverLetterGen"><a href= "http://github.com/keyFrameM/CoverLetterGenerator">Custom Cover Letter Generator</a><br>&nbsp Tool with a basic GUI that allows me to custom tailer a cover letter.  Driven by companies variable key words it builds a custom and accurate cover letter while still maintaining properly written English conjugations and punctuations.</li>
       <li>&nbsp</li>
-      <li class="topSpace" id="codeWebsite"><a href= "https://github.com/keyFrameM/portfolio">My Codeing Website</a><br>&nbsp Purposely Created useing no Frame Work and just relying on knowldege of HTML and CSS to have a fully functional site.
+      <li class="topSpace" id="codeWebsite"><a href= "https://github.com/keyFrameM/portfolio">My Codeing Website</a><br>&nbsp Responsive website layout useing Bootstrap framework, Html, and CSS.  Website delivers basic information and links for Chris Marlowe.
       </li>
       <li>&nbsp</li>
-      <li class="topSpace" id="animWebsite"><a href= "http://www.marloweanimation.com">My Animation Website</a><br>&nbsp Created via muse and includes some additional scripts of code for more interactive features</li>
+      <li class="topSpace" id="animWebsite"><a href= "http://www.marloweanimation.com">My Animation Website</a><br>&nbsp Website created via Adobe Muse. Includes additional javascript for non-traditional features not normally permitted in a Muse  built website.</li>
     </ul>
   </div> 
   <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div> 
@@ -188,9 +190,9 @@
 
 <!-- Experience-->
 <div class="row">
-  <div class="col-xs-1 col-sm-1 col-md-1 col-lg-2"></div>
+    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-2"></div>
     
-    <div id="experience" class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+    <div id="experience" class="col-xs-11 col-sm-5 col-md-4 col-lg-4">
       <h2>Experience</h2>
       <ul>
         <li>Debugging Legacy Code</li>
@@ -201,7 +203,7 @@
       </ul>
     </div>
 
-    <div id="experience2" class="col-xs-0 col-sm-4 col-md-4 col-lg-4">
+    <div id="experience2" class="col-xs-12 col-sm-5 col-md-4 col-lg-4">
       <h2>______________</h2>
       <ul>
         <li>Experience Contributing and optimizing Different Company Workflows.</li>
@@ -211,13 +213,14 @@
         <li>Leadership Experience of both Small and Large teams.</li>
       </ul>
     </div> 
-  <div class="col-xs-1 col-sm-2 col-md-2 col-lg-2"></div>
+    
+    <div class="col-xs-12 col-sm-1 col-md-2 col-lg-2" STYLE="height:30px"></div>
 </div>
 
 
 <!--footer-->
 <div class="row">
-<footer>
+<footer style="padding-top:20px;">
   <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"></div>
     <section id="footContact" class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="">
       <p><b>Christopher Marlowe</b></p>
@@ -227,6 +230,7 @@
     </section>  
   <div class="col-lg-4"></div>
   </div>
+</DIV>
 
   <!--Follow links-->
   <div class="row">
