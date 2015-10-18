@@ -1,11 +1,66 @@
+body{
+	background-color: #e3ebeb;
+}
+
+
 @font-face {
      font-family: Varela-Regular;
      src: css/; 
 }
 
-header{
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.topSpace {
+    padding-top: 73px;
+    margin-top: -73px;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+color: #fff;  /*Sets the text hover color on navbar*/
+font-style: italic;
+}
+
+  .navbar-default {
+    background-color: #6c9ce4;
+    border-color: #696969;
+    border-style: solid;
+    border-bottom-width: 5px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.dropdown-menu{
+	background-color: #e3ebeb;
 
 }
+
+  .dropdown-menu > li > a:hover,
+  .dropdown-menu > li > a:focus {
+    color: #fff;
+   text-decoration: none;
+  background-color: #6c9ce4;  /*change color of links in drop down here*/
+   }
+   .dropdown ul> li > a{
+   	color: #fff;
+   text-decoration: none;
+  background-color: green;  
+   }
+
+ .nav > li > a:hover,
+ .nav > li > a:focus {
+ 	font-style: bold;
+    text-decoration: none;
+ /*Change rollover cell color here*/
+  }
+
+
+  .navbar-default .navbar-nav > li > a {
+   color: white; /*Change active text color here*/
+    }
+
 h1{
 	font-weight: bold;
 	font-size: 50px;
@@ -20,8 +75,9 @@ h3{
 	font-size: 18px;
 }
 p{
-
-	font-size: 18px
+	font-weight: 550;
+	letter-spacing: 1px;
+	font-size: 18px;
 }
 
 #Projects{
@@ -29,8 +85,9 @@ p{
 	margin-bottom: 10px;
 }
 #Projects ul li{
-
-	font-size: 16px;
+	font-weight: 550;
+	letter-spacing: 1px;
+	font-size: 18px;
 }
 #logoBar{
 	margin-left: 10%;
@@ -65,6 +122,9 @@ p{
 	list-style-type: circle;
 	padding-top: 5px;
 	padding-bottom: 5px;
+	font-weight: 550;
+	letter-spacing: 1px;
+	font-size: 18px;
 }
 #experience2{
 	height:350px;
@@ -75,11 +135,11 @@ p{
 	list-style-type: circle;
 	padding-top: 5px;
 	padding-bottom: 5px;
+	font-weight: 550;
+	letter-spacing: 1px;
+	font-size: 18px;
 }
 
-body{
-	background-color: #e3ebeb;
-}
 
 a:hover{
 	color:#6c9ce4;
