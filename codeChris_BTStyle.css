@@ -70,9 +70,9 @@ font-style: italic;
 	background-color: #e3ebeb;
 }
 
-h1{
+#nameTitle{
 	font-weight: bold;
-	font-size: 50px;
+	font-size: 180%
 }
 h2{
 	font-weight: bold;
@@ -116,13 +116,11 @@ p{
 
 .knowledge article h2{
 	text-align: center;
-
 }
 
 
 #experience{
 	font-weight: bold;
-	width: 45%;
 	padding-top: 50px;
 }
 
@@ -130,7 +128,6 @@ p{
 
 	list-style-type: circle;
 	padding-top: 5px;
-	padding-bottom: 5px;
 	font-weight: 550;
 	letter-spacing: 1px;
 	font-size: 18px;
@@ -138,7 +135,7 @@ p{
 #experience2{
 	height:350px;
 	font-weight: bold;
-	padding-top: 50px;
+	margin-top: 50px;
 }
 #experience2 ul li{
 	list-style-type: circle;
@@ -174,21 +171,10 @@ section{
 	text-align: center;
 }
 
-section#nameTitle{
-    width: 529px;
-    height: 200px;
-    margin-top: 90px;
-    padding: 10px;
-
-}
 #bioPic{
 	float: right;
 }
-.title{
-	top:50px;
-	font-size: 30px;
-	text-align: left;
-}
+
 
 .logoSmall{
 	width: 55px;
@@ -221,15 +207,12 @@ footer p, footer h3{
 
 #footContact{
 	font-size: 25px;
-	width: 100%;
 	border-top: solid #696969;
 	border-bottom: solid #696969
 }
 
 #followLinks{
-
 	margin-top: 0px;
-	width: 100%;
 	border-bottom: solid #696969;
 }
 
