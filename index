@@ -142,71 +142,113 @@
   <div id="Projects" class="col-xs-10 col-sm-10 col-md-10 col-lg-8">
     <h2>Personal Projects</h2>
     <ul>
+      <li class="topSpace webApps img-rounded" id="chatApp"><!--chit-chat App-->
+        <p>
+          <h3>Chat Application</h3> 
+        &nbsp Web Chat Application.  No login required! 2 or more parties can just meet and talk in chatroom
+        </p>
+      <div class="btn-group" role="group" ><!--buttons-->
+          <a href="https://github.com/keyFrameM/SamplePhotoGallery" target="_blank" type="submit" class="btn btn btn-default btn-group btn-group-xs " style="width:200px;"><span class="glyphicon glyphicon-play"></span> View Website</a>     
+          <a href="http://github.com/keyFrameM/SamplePhotoGallery" target="_blank" type="submit" class="btn btn btn-default btn-group btn-group-xs " style="width:200px;"><span class="glyphicon glyphicon-folder-open"></span> &nbsp View SourceCode</a>
+      </div>  
+      </li>
+      <li>&nbsp</li>
 
-      <li class="topSpace" id="CarCompare"> <!--Car Comparison Tool-->
+      <li class="topSpace webApps img-rounded" id="CarCompare"> <!--Car Comparison Tool-->
       	<p>
       		<h3>Car Comparison Tool</h3>
       		&nbsp Estimates approximate life of a car by accounting for current milage, price of gas, distance to work, miles per gallon of the vehicle, and other factors.
-		</p>
-			
-			<div class="btn-group" role="group" ><!--buttons-->
-		  		<a href="http://keyframem.github.io/CarCompareTool/" target="_blank" type="submit" class="btn btn btn-default btn-group btn-group-xs" style="width:200px;"><span class="glyphicon glyphicon-play"></span> Launch WebApp</a>  		
-		  		<a href="http://github.com/keyFrameM/CarCompareTool" target="_blank" type="submit" class="btn btn btn-default btn-group btn-group-xs" style="width:200px;"><span class="glyphicon glyphicon-folder-open"></span> &nbsp View SourceCode</a>
-		  	</div>	
+        </p>
+      <div class="btn-group" role="group" ><!--buttons-->
+          <a href="http://keyframem.github.io/CarCompareTool/" target="_blank" type="submit" class="btn btn btn-default btn-group btn-group-xs" style="width:200px;"><span class="glyphicon glyphicon-play"></span> Launch WebApp</a>  		
+          <a href="http://github.com/keyFrameM/CarCompareTool" target="_blank" type="submit" class="btn btn btn-default btn-group btn-group-xs" style="width:200px;"><span class="glyphicon glyphicon-folder-open"></span> &nbsp View SourceCode</a>
+      </div>	
       </li>
       <li>&nbsp</li>
 
-      <li class="topSpace" id="CoverLetterGen"> <!--Cover Letter Generator-->
+      <li class="topSpace webApps img-rounded" id="CoverLetterGen"> <!--Cover Letter Generator-->
       	<p>
       		<h3>Custom Cover Letter Generator</h3>
-      	&nbsp Tool with a basic GUI that allows me to custom tailer a cover letter.  Driven by companies variable key words it builds a custom and accurate cover letter while still maintaining properly written English conjugations and punctuations.
-      	</p>
-			
-			<div class="btn-group" role="group" ><!--buttons-->
-		  		<a href="http://keyframem.github.io/CoverLetterGenerator" target="_blank" type="submit" class="btn btn btn-default btn-group btn-group-xs " style="width:200px;"><span class="glyphicon glyphicon-play"></span> Launch WebApp</a>  		
-		  		<a href="http://github.com/keyFrameM/CoverLetterGenerator" target="_blank" type="submit" class="btn btn btn-default btn-group btn-group-xs" style="width:200px;"><span class="glyphicon glyphicon-folder-open"></span> &nbsp View SourceCode</a>
-		  	</div>	
-
+         &nbsp Tool with a basic GUI that allows me to custom tailer a cover letter.  Driven by companies variable key words it builds a custom and accurate cover letter while still maintaining properly written English conjugations and punctuations.
+        </p>
+      <div class="btn-group" role="group" ><!--buttons-->
+          <a href="http://keyframem.github.io/CoverLetterGenerator" target="_blank" type="submit" class="btn btn btn-default btn-group btn-group-xs " style="width:200px;"><span class="glyphicon glyphicon-play"></span> Launch WebApp</a>  		
+          <a href="http://github.com/keyFrameM/CoverLetterGenerator" target="_blank" type="submit" class="btn btn btn-default btn-group btn-group-xs" style="width:200px;"><span class="glyphicon glyphicon-folder-open"></span> &nbsp View SourceCode</a>
+      </div>
       </li>
-      <li>&nbsp</li>
+    <li>&nbsp</li>
 
-      <li class="topSpace" id="Apartment Comparison"> <!--Apartment Comparison Tool-->
-	      	<p>
-	      		<h3>Apartment Comparison Tool</h3>
-	      		&nbsp &nbsp Tool that  evaluates the true value of an apartment for an individual. Accounts for variables such as utilities, laundry,  parking, and other "non- essentials".
-			</p>
-			
+      <li class="topSpace webApps img-rounded" id="Apartment Comparison"> <!--Apartment Comparison Tool-->	
+        <p>
+          <h3>Apartment Comparison Tool</h3>
+         &nbsp Compares varing factors from a wide variety of variables for different aparment prices to sort the most economically benifical locations.
+        </p>		
 			<div class="btn-group" role="group" > <!--buttons-->
 		  		<a href="http://github.com/keyFrameM/CarCompareTool" target="_blank" type="submit" class="btn btn btn-default btn-group btn-group-xs disabled" style="width:200px;"><span class="glyphicon glyphicon-play"></span> Launch WebApp</a>  		
 		  		<a href="http://github.com/keyFrameM/CarCompareTool" target="_blank" type="submit" class="btn btn btn-default btn-group btn-group-xs" style="width:200px;"><span class="glyphicon glyphicon-folder-open"></span> &nbsp View SourceCode</a>
-		  	</div>	
+		  </div>	
 	  </li>
       <li>&nbsp</li>
 
-      <li class="topSpace" id="codeWebsite">
-      	<p>
-      		<h3>My Coding Website</h3>
-      	&nbsp Responsive website layout useing Bootstrap framework, Html, and CSS.  Website delivers basic information and links for Chris Marlowe.
-		</p>
-			
-			<div class="btn-group" role="group" ><!--buttons-->
-		  		<a href="https://www.codechris.com" target="_blank" type="submit" class="btn btn btn-default btn-group btn-group-xs " style="width:200px;"><span class="glyphicon glyphicon-play"></span> View Website</a>  		
-		  		<a href="https://github.com/keyFrameM/portfolio" target="_blank" type="submit" class="btn btn btn-default btn-group btn-group-xs" style="width:200px;"><span class="glyphicon glyphicon-folder-open"></span> 
-		  			&nbsp View SourceCode</a>
-		  	</div>	
+      <li class="topSpace website img-rounded" id="SampleWebsite"><!--Sample website-->
+        <p>
+          <h3>Sample Website</h3> 
+        &nbsp Website layout designed to meet most common needs of a client.
+        </p>
+      <div class="btn-group" role="group" ><!--buttons-->
+          <a href="https://github.com/keyFrameM/SampleSitePortfolio" target="_blank" type="submit" class="btn btn btn-default btn-group btn-group-xs " style="width:200px;"><span class="glyphicon glyphicon-play"></span> View Website</a>     
+          <a href="http://github.com/keyFrameM/SampleSitePortfolio" target="_blank" type="submit" class="btn btn btn-default btn-group btn-group-xs " style="width:200px;"><span class="glyphicon glyphicon-folder-open"></span> &nbsp View SourceCode</a>
+      </div>  
       </li>
       <li>&nbsp</li>
 
-      <li class="topSpace" id="animWebsite">
+      <li class="topSpace website img-rounded" id="SampleGallery"><!--Sample Gallery-->
+        <p>
+          <h3>Sample Gallery Website</h3> 
+        &nbsp Website Layout for a website needing to showcase a gallery of images.
+        </p>
+      <div class="btn-group" role="group" ><!--buttons-->
+          <a href="https://github.com/keyFrameM/SamplePhotoGallery" target="_blank" type="submit" class="btn btn btn-default btn-group btn-group-xs " style="width:200px;"><span class="glyphicon glyphicon-play"></span> View Website</a>     
+          <a href="http://github.com/keyFrameM/SamplePhotoGallery" target="_blank" type="submit" class="btn btn btn-default btn-group btn-group-xs " style="width:200px;"><span class="glyphicon glyphicon-folder-open"></span> &nbsp View SourceCode</a>
+      </div>  
+      </li>
+      <li>&nbsp</li>
+
+      <li class="topSpace website img-rounded" id="animWebsite"><!--marlowe Animation-->
+        <p>
+          <h3>Animation Website</h3> 
+        &nbsp Website created via Adobe Muse. Includes additional javascript for non-traditional features not normally permitted in a Muse  built website.
+        </p>
+      <div class="btn-group" role="group" ><!--buttons-->
+          <a href="http://www.marloweanimation.com/" target="_blank" type="submit" class="btn btn btn-default btn-group btn-group-xs " style="width:200px;"><span class="glyphicon glyphicon-play"></span> View Website</a>     
+          <a href="http://github.com/keyFrameM/portfolio" target="_blank" type="submit" class="btn btn btn-default btn-group btn-group-xs disabled" style="width:200px;"><span class="glyphicon glyphicon-folder-open"></span> &nbsp View SourceCode</a>
+      </div>  
+      </li>
+      <li>&nbsp</li>
+
+      <li class="topSpace website img-rounded" id="codeWebsite"> <!--codeChris Website-->
+        <p>
+          <h3>CodeChris Website</h3>
+        &nbsp Responsive website layout useing Bootstrap framework, Html, and CSS.  Website delivers basic information and links for Chris Marlowe.
+        </p>      
+      <div class="btn-group" role="group" ><!--buttons-->
+          <a href="https://www.codechris.com" target="_blank" type="submit" class="btn btn btn-default btn-group btn-group-xs " style="width:200px;"><span class="glyphicon glyphicon-play"></span> View Website</a>      
+          <a href="https://github.com/keyFrameM/portfolio" target="_blank" type="submit" class="btn btn btn-default btn-group btn-group-xs" style="width:200px;"><span class="glyphicon glyphicon-folder-open"></span> 
+            &nbsp View SourceCode</a>
+      </div>  
+      </li>
+      <li>&nbsp</li>
+
+      <li class="topSpace website img-rounded" id="animWebsite"><!--marlow Animation-->
       	<p>
-      		<h3>My Animation Website</h3>
-      	&nbsp Website created via Adobe Muse. Includes additional javascript for non-traditional features not normally permitted in a Muse  built website.</li>
-		</p>
-			
-			<div class="btn-group" role="group" ><!--buttons-->
-		  		<a href="http://www.marloweanimation.com/" target="_blank" type="submit" class="btn btn btn-default btn-group btn-group-xs " style="width:200px;"><span class="glyphicon glyphicon-play"></span> View Website</a>  		
-		  		<a href="http://github.com/keyFrameM/portfolio" target="_blank" type="submit" class="btn btn btn-default btn-group btn-group-xs disabled" style="width:200px;"><span class="glyphicon glyphicon-folder-open"></span> &nbsp View SourceCode</a>
-		  	</div>	
+      		<h3>Animation Website</h3> 
+        &nbsp Website created via Adobe Muse. Includes additional javascript for non-traditional features not normally permitted in a Muse  built website.
+        </p>
+      <div class="btn-group" role="group" ><!--buttons-->
+          <a href="http://www.marloweanimation.com/" target="_blank" type="submit" class="btn btn btn-default btn-group btn-group-xs " style="width:200px;"><span class="glyphicon glyphicon-play"></span> View Website</a>     
+          <a href="http://github.com/keyFrameM/portfolio" target="_blank" type="submit" class="btn btn btn-default btn-group btn-group-xs disabled" style="width:200px;"><span class="glyphicon glyphicon-folder-open"></span> &nbsp View SourceCode</a>
+      </div>  
+      </li>
     </ul>		
   </div> 
   <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div> 
