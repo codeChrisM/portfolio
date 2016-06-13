@@ -3,6 +3,8 @@ body{
 }
 
 
+
+
 @font-face {
      font-family: Varela-Regular;
      src: css/; 
@@ -19,32 +21,17 @@ body{
     margin-top: -5px;
 }
 
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-color: #fff;  /*Sets the text hover color on navbar*/
-font-style: italic;
-position: fixed;
-padding-top: 20px;
 
-
-
-}
 
 .website{
 	background-color: #cfdee7;
+	padding-left: 5px;
+	background: #a6c1de; /* For browsers that do not support gradients */
 
-	background: #719bd2; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#cfdee7, #a6c1de); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#cfdee7, #a6c1de); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#cfdee7, #a6c1de); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#cfdee7, #a6c1de); /* Standard syntax */
 }
 .webApps{
-
-	background: #719bd2; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#cfdee7, #a6c1de); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#cfdee7, #a6c1de); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#cfdee7, #a6c1de); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#cfdee7, #a6c1de); /* Standard syntax */}
+	padding-left: 5px;
+	background: #dce1e2; /* For browsers that do not support gradients */ }
 
   .navbar-default {
     background-color: #6c9ce4;
@@ -85,7 +72,7 @@ padding-top: 20px;
    color: white; /*Change active text color here*/
     }
 
-.navbar-nav { -webkit-backface-visibility: hidden; } 
+
 
 .navbar-brand{
 	background-color: #e3ebeb;
@@ -143,28 +130,30 @@ p{
 }
 
 
-#experience{
-	font-weight: bold;
-	padding-top: 50px;
+#experience ul{
+	padding-left: 10%;
 }
 
 #experience ul li{
-
 	list-style-type: circle;
-	padding-top: 5px;
+	padding-top: 1%;
+	padding-left: 4%;
 	font-weight: 550;
 	letter-spacing: 1px;
 	font-size: 18px;
+	margin-bottom: 0%;
 }
-#experience2{
-	height:350px;
-	font-weight: bold;
-	margin-top: 50px;
+#experience2 ul{
+	padding-left: 10%;
+}
+#experience2 h2{
+	margin-top: 0%;
+
 }
 #experience2 ul li{
 	list-style-type: circle;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-top: .5%;
+	padding-left: 4%;
 	font-weight: 550;
 	letter-spacing: 1px;
 	font-size: 18px;
@@ -254,25 +243,22 @@ footer p, footer h3{
       opacity: 1;
       background-color: transparent ;
        transition: all 0.5s ease-in-out;
-
     }
 
 .fadeOnProject{
   position: relative;
   opacity: 0;
   transition: all 0.3s ease-in-out;
-  border-radius: 10px;
   overflow: hidden;
   transform: translateX(-100px);
-
 }
+
 .is-showingProject {
       opacity: 1;
-      background-color: transparent ;
        transition: all 0.5s ease-in-out;
        transform: translateX(0px);
-
     }
+
 .fadeOnIconRow{
   position: relative;
   opacity: 0;
@@ -290,19 +276,36 @@ footer p, footer h3{
        transform: translateX(0px); 
     }
 
-
-.clothes-pics figure {
-  margin-bottom: 20px;
+.fadeOnKnowledge{
   position: relative;
   opacity: 0;
-  transform: translateX(-20px);
   transition: all 0.3s ease-in-out;
+  border-radius: 10px;
   overflow: hidden;
-
+  transform: translateY(-100px);
 }
-.clothes-pics figure.is-showing {
+
+.is-showingKnowledge {
       opacity: 1;
-      background-color: grey;
-      border-radius: 3%;
-      transform: translateX(0px); 
+      background-color: transparent ;
+       transition: all 0.5s ease-in-out;
+       transform: translateY(0px);
     }
+
+.fadeOnExperience{
+  position: relative;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+
+  overflow: hidden;
+  transform: translateX(-100px);
+}
+
+.is-showingExperience{
+      opacity: 1;
+      background-color: transparent ;
+       transition: all 0.5s ease-in-out;
+       transform: translateX(0px);
+    }
+
+
