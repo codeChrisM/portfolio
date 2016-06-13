@@ -22,11 +22,16 @@ body{
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
 color: #fff;  /*Sets the text hover color on navbar*/
 font-style: italic;
+position: fixed;
+padding-top: 20px;
+
+
+
 }
 
 .website{
 	background-color: #cfdee7;
-	padding-left: 5px;
+
 	background: #719bd2; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(#cfdee7, #a6c1de); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#cfdee7, #a6c1de); /* For Opera 11.1 to 12.0 */
@@ -34,7 +39,7 @@ font-style: italic;
     background: linear-gradient(#cfdee7, #a6c1de); /* Standard syntax */
 }
 .webApps{
-	padding-left: 5px;
+
 	background: #719bd2; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(#cfdee7, #a6c1de); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#cfdee7, #a6c1de); /* For Opera 11.1 to 12.0 */
@@ -79,6 +84,8 @@ font-style: italic;
   .navbar-default .navbar-nav > li > a {
    color: white; /*Change active text color here*/
     }
+
+.navbar-nav { -webkit-backface-visibility: hidden; } 
 
 .navbar-brand{
 	background-color: #e3ebeb;
@@ -233,3 +240,69 @@ footer p, footer h3{
 	border-bottom: solid #696969;
 }
 
+
+
+.fadeOn{
+  position: relative;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+  overflow: hidden;
+
+}
+.is-showing {
+      opacity: 1;
+      background-color: transparent ;
+       transition: all 0.5s ease-in-out;
+
+    }
+
+.fadeOnProject{
+  position: relative;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+  overflow: hidden;
+  transform: translateX(-100px);
+
+}
+.is-showingProject {
+      opacity: 1;
+      background-color: transparent ;
+       transition: all 0.5s ease-in-out;
+       transform: translateX(0px);
+
+    }
+.fadeOnIconRow{
+  position: relative;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+  overflow: hidden;
+  transform: translateX(-50px);
+
+
+}
+.is-showingIconRow{
+      opacity: 1;
+      background-color: transparent ;
+       transition: all 0.5s ease-in-out;
+       transform: translateX(0px); 
+    }
+
+
+.clothes-pics figure {
+  margin-bottom: 20px;
+  position: relative;
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+
+}
+.clothes-pics figure.is-showing {
+      opacity: 1;
+      background-color: grey;
+      border-radius: 3%;
+      transform: translateX(0px); 
+    }

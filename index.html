@@ -3,67 +3,72 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!--<meta http-equiv="refresh" content="10" >-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1 user-scalable=no">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>CodeChris | Codeing Developer </title>
-
-    <!-- Bootstrap -->
-    <!-- Bootstrap CSS CDN -->
+    <title>CodeChris | Code Developer </title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="codeChris_BTStyle.css">
     
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
+
+
   <body style="padding-top:50px">
 
 
-<!--NAV BAR-->
-  		<nav class="navbar navbar-default navbar-fixed-top">
-			<div class="container-fluid">
-				<!--logo-->
-				<div class="navbar-header" style="padding-right:10px">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavbar" style="background-color:#e3ebeb">				
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
 
-					<img src="images/codeChris Logo.png"  class="navbar-brand img-rounded"> </image>
-				</div>
-				<!--menu-->
-			<div class="collapse navbar-collapse navbar-right" id="mainNavbar">
-			<ul class ="nav navbar-nav">
-				<li><a href="#" >Home</a></li>
-				<li> <a href="#aboutMe" >About Me</a></li>
-				<li><a href="#knowledge">Knowledge</a></li>
+
+<!--NAV BAR-->
+<nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <!--logo-->
+        <div class="navbar-header" style="padding-right:10px">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavbar" style="background-color:#e3ebeb">        
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <img src="images/codeChris Logo.png"  class="navbar-brand img-rounded"/>
+        </div>
+        <!--menu-->
+      <div class="collapse navbar-collapse navbar-right" id="mainNavbar" >
+      <ul class ="nav navbar-nav">
+        <li><a href="#" >Home</a></li>
+        <li> <a href="#aboutMe" >About Me</a></li>
+        <li><a href="#knowledge">Knowledge</a></li>
         <!--menu dropdown-->
-				<li><a class="dropdown" data-toggle="dropdown">Projects<span class="caret"></span></a>
-					<ul id="test" class="dropdown-menu">
-						<li><a href="#Apartment Comparison">Apartment Comparison</a></li>
-						<li><a href="#CarCompare">Car Comparison Tool</a></li>
-						<li><a href="#CoverLetterGen">Cover Letter Genartor</a></li>
-						<li><a href="#codeWebsite">Codeing Website</a></li>
+        <li><a class="dropdown" data-toggle="dropdown">Projects<span class="caret"></span></a>
+          <ul id="test" class="dropdown-menu">
+            <li><a href="#Apartment Comparison">Apartment Comparison</a></li>
+            <li><a href="#CarCompare">Car Comparison Tool</a></li>
+            <li><a href="#CoverLetterGen">Cover Letter Genartor</a></li>
+            <li><a href="#codeWebsite">Codeing Website</a></li>
             <li><a href="#animWebsite">Animation Website</a></li>
-					</ul>
-			<div>	
+          </ul>
         <li><a href="#experience">Experience</a></li>
-			</ul>			
-		</nav>
+        </li>
+      </ul>
+      </div> 
+      </div> 
+</nav>
+
+
 
 <!-- space below NAV BAR-->
 <div class="col-md-0 col-lg-12" style="height:30px"></div>
 
 <!--BIO / TITLE -->
-<div class="row"
->  <div class="col-xs-1 col-sm-2 col-md-3 col-lg-4 vcenter"></div>
-  <div class="col-xs-5 col-sm-4 col-md-3 col-lg-2 vcenter"><img id="bioPic" src="images/bio pic 2.png" class="img-rounded img-responsive" ></div>
+<div class="row">  
+<div class="col-xs-1 col-sm-2 col-md-3 col-lg-4 vcenter"></div>
+  <div class="col-xs-5 col-sm-4 col-md-3 col-lg-2 vcenter"><img id="bioPic" src="images/bio pic 2.png" class="img-rounded img-responsive" />
+  </div>
 
   <div class="col-xs-5 col-sm-5 col-md-3 col-lg-2 vcenter ">
     <P id="nameTitle" style="color:#2d2d2e" >Chris Marlowe <br><span style="color:#6c9ce4">Code Developer</span>
@@ -73,19 +78,19 @@
 
 
 <!--ICON ROW -->
-<div class= "row">
+<div class= "row" >
         <div class="col-xs-0 col-sm-1 col-md-0 col-lg-2"></div>
-        <ul class="col-xs-12 col-sm-12 col-md-10 col-lg-8" > 
+        <ul class="col-xs-12 col-sm-12 col-md-10 col-lg-8" id="iconRow"> 
         <li class="col-xs-0 col-sm-1 col-md-1">
-        <li class="col-xs-6 col-sm-2 col-md-2">
+        <li class="col-xs-6 col-sm-2 col-md-2 fadeOnIconRow" >
           <a href="https://github.com/keyFrameM">
-          <img class= "logoLarge img-responsive" src="images/Github Logo.png"/>
+          <img class= "logoLarge img-responsive " src="images/Github Logo.png"/>
           </a>
           <h3 class="text-center">GitHub</h3>
           <p class="text-center">See my code</p>  
         </li>
         
-        <li class="col-xs-6 col-sm-2 col-md-2">
+        <li class="col-xs-6 col-sm-2 col-md-2 fadeOnIconRow">
           <a href="https://www.linkedin.com/in/christophermarlowe">
             <img  class="logoLarge img-responsive" src="images/LinkedIn Logo.png" alt=LinkedIn/>
           </a>
@@ -93,7 +98,7 @@
           <p class="text-center">Hire me!</p>
         </li>
 
-        <li class="col-xs-6 col-sm-2 col-md-2">
+        <li class="col-xs-6 col-sm-2 col-md-2 fadeOnIconRow">
           <a href="https://www.codecademy.com/keyFrameM">
           <img class="logoLarge img-responsive" src="images/CodeCademy Logo.png"/>
           </a>
@@ -101,7 +106,7 @@
           <p class="text-center">Because... Why not?</p>
         </li>
 
-        <li class="col-xs-6 col-sm-2 col-md-2">
+        <li class="col-xs-6 col-sm-2 col-md-2 fadeOnIconRow">
           <a href="http://www.codechris.com/blog">
           <img class="logoLarge img-responsive" src="images/Blog Logo.png"/>
           </a>
@@ -109,7 +114,7 @@
           <p class="text-center">Like a really short book</p>
         </li>
 
-        <li class="col-xs-6 col-sm-2 col-md-2">
+        <li class="col-xs-6 col-sm-2 col-md-2 fadeOnIconRow">
           <a href="https://www.youtube.com/channel/UCPq8BlC_MR6w3QmUJpg22nQ">
           <img class= "logoLarge img-responsive" src="images/Youtube Logo.png"/>
           </a>
@@ -123,26 +128,23 @@
 
 <!--about me-->
 <div class="row">
-  <div class="aboutMe">
-    <div class=" col-xs-1 col-sm-1 col-md-1 col-lg-3"></div>
-    <article class="col-xs-10 col-sm-10 col-md-10 col-lg-6">
+  <div id="aboutMe" class="container">
+    <article class=" col-xs-offset-1 col-lg-offset-3 col-xs-11 col-lg-6">
       <h2>About Me</h2>
-        <p>I enjoy creating things that don’t currently exist.   Solving problems and puzzles by thinking outside the box has been what has lead me to pursueing a career in Computer Programming.  
+        <p class="fadeOn">I enjoy creating things that don’t currently exist.   Solving problems and puzzles by thinking outside the box has been what has lead me to pursueing a career in Computer Programming.  
 
         For personal hobbies I enjoy createing artwork from drawing to 3D Animation.  I am a marthon runner, dancer, and magician.
         Lastly, favorite superhero is going to be Batman.</p>
       </article>
-    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-3"></div>
   </div>
 </div>
 
 <!--PROJECTS-->
 <div class="row">
-  <div class="col-xs-1 col-sm-1 col-md-1 col-lg-2"></div>
-  <div id="Projects" class="col-xs-10 col-sm-10 col-md-10 col-lg-8">
+  <div id="Projects" class=" col-xs-offset-1 col-lg-offset-3 col-xs-11 col-lg-6 " style="">
     <h2>Personal Projects</h2>
     <ul>
-      <li class="topSpace webApps img-rounded" id="chatApp"><!--chit-chat App-->
+      <li class="topSpace webApps img-rounded fadeOnProject" id="chatApp"><!--chit-chat App-->
         <p>
           <h3>Chat Application</h3> 
         &nbsp Web Chat Application.  No login required! 2 or more parties can just meet and talk in chatroom
@@ -154,43 +156,43 @@
       </li>
       <li>&nbsp</li>
 
-      <li class="topSpace webApps img-rounded" id="CarCompare"> <!--Car Comparison Tool-->
-      	<p>
-      		<h3>Car Comparison Tool</h3>
-      		&nbsp Estimates approximate life of a car by accounting for current milage, price of gas, distance to work, miles per gallon of the vehicle, and other factors.
+      <li class="topSpace webApps img-rounded fadeOnProject" id="CarCompare"> <!--Car Comparison Tool-->
+        <p>
+          <h3>Car Comparison Tool</h3>
+          &nbsp Estimates approximate life of a car by accounting for current milage, price of gas, distance to work, miles per gallon of the vehicle, and other factors.
         </p>
       <div class="btn-group" role="group" ><!--buttons-->
-          <a href="http://keyframem.github.io/CarCompareTool/" target="_blank" type="submit" class="btn btn btn-default btn-group btn-group-xs" style="width:200px;"><span class="glyphicon glyphicon-play"></span> Launch WebApp</a>  		
+          <a href="http://keyframem.github.io/CarCompareTool/" target="_blank" type="submit" class="btn btn btn-default btn-group btn-group-xs" style="width:200px;"><span class="glyphicon glyphicon-play"></span> Launch WebApp</a>     
           <a href="http://github.com/keyFrameM/CarCompareTool" target="_blank" type="submit" class="btn btn btn-default btn-group btn-group-xs" style="width:200px;"><span class="glyphicon glyphicon-folder-open"></span> &nbsp View SourceCode</a>
-      </div>	
+      </div>  
       </li>
       <li>&nbsp</li>
 
-      <li class="topSpace webApps img-rounded" id="CoverLetterGen"> <!--Cover Letter Generator-->
-      	<p>
-      		<h3>Custom Cover Letter Generator</h3>
+      <li class="topSpace webApps img-rounded fadeOnProject" id="CoverLetterGen"> <!--Cover Letter Generator-->
+        <p>
+          <h3>Custom Cover Letter Generator</h3>
          &nbsp Tool with a basic GUI that allows me to custom tailer a cover letter.  Driven by companies variable key words it builds a custom and accurate cover letter while still maintaining properly written English conjugations and punctuations.
         </p>
       <div class="btn-group" role="group" ><!--buttons-->
-          <a href="http://keyframem.github.io/CoverLetterGenerator" target="_blank" type="submit" class="btn btn btn-default btn-group btn-group-xs " style="width:200px;"><span class="glyphicon glyphicon-play"></span> Launch WebApp</a>  		
+          <a href="http://keyframem.github.io/CoverLetterGenerator" target="_blank" type="submit" class="btn btn btn-default btn-group btn-group-xs " style="width:200px;"><span class="glyphicon glyphicon-play"></span> Launch WebApp</a>     
           <a href="http://github.com/keyFrameM/CoverLetterGenerator" target="_blank" type="submit" class="btn btn btn-default btn-group btn-group-xs" style="width:200px;"><span class="glyphicon glyphicon-folder-open"></span> &nbsp View SourceCode</a>
       </div>
       </li>
-    <li>&nbsp</li>
+      <li>&nbsp</li>
 
-      <li class="topSpace webApps img-rounded" id="Apartment Comparison"> <!--Apartment Comparison Tool-->	
+      <li class="topSpace webApps img-rounded fadeOnProject" id="Apartment Comparison"> <!--Apartment Comparison Tool-->  
         <p>
           <h3>Apartment Comparison Tool</h3>
          &nbsp Compares varing factors from a wide variety of variables for different aparment prices to sort the most economically benifical locations.
-        </p>		
-			<div class="btn-group" role="group" > <!--buttons-->
-		  		<a href="http://github.com/keyFrameM/CarCompareTool" target="_blank" type="submit" class="btn btn btn-default btn-group btn-group-xs disabled" style="width:200px;"><span class="glyphicon glyphicon-play"></span> Launch WebApp</a>  		
-		  		<a href="http://github.com/keyFrameM/CarCompareTool" target="_blank" type="submit" class="btn btn btn-default btn-group btn-group-xs" style="width:200px;"><span class="glyphicon glyphicon-folder-open"></span> &nbsp View SourceCode</a>
-		  </div>	
-	  </li>
+        </p>    
+      <div class="btn-group" role="group" > <!--buttons-->
+          <a href="http://github.com/keyFrameM/CarCompareTool" target="_blank" type="submit" class="btn btn btn-default btn-group btn-group-xs disabled" style="width:200px;"><span class="glyphicon glyphicon-play"></span> Launch WebApp</a>      
+          <a href="http://github.com/keyFrameM/CarCompareTool" target="_blank" type="submit" class="btn btn btn-default btn-group btn-group-xs" style="width:200px;"><span class="glyphicon glyphicon-folder-open"></span> &nbsp View SourceCode</a>
+      </div>  
+     </li>
       <li>&nbsp</li>
 
-      <li class="topSpace website img-rounded" id="SampleWebsite"><!--Sample website-->
+      <li class="topSpace website img-rounded fadeOnProject" id="SampleWebsite"><!--Sample website-->
         <p>
           <h3>Sample Website</h3> 
         &nbsp Website layout designed to meet most common needs of a client.
@@ -202,7 +204,7 @@
       </li>
       <li>&nbsp</li>
 
-      <li class="topSpace website img-rounded" id="SampleGallery"><!--Sample Gallery-->
+      <li class="topSpace website img-rounded fadeOnProject" id="SampleGallery"><!--Sample Gallery-->
         <p>
           <h3>Sample Gallery Website</h3> 
         &nbsp Website Layout for a website needing to showcase a gallery of images.
@@ -214,7 +216,7 @@
       </li>
       <li>&nbsp</li>
 
-      <li class="topSpace website img-rounded" id="animWebsite"><!--marlowe Animation-->
+      <li class="topSpace website img-rounded fadeOnProject" id="animWebsite"><!--marlowe Animation-->
         <p>
           <h3>Animation Website</h3> 
         &nbsp Website created via Adobe Muse. Includes additional javascript for non-traditional features not normally permitted in a Muse  built website.
@@ -226,7 +228,7 @@
       </li>
       <li>&nbsp</li>
 
-      <li class="topSpace website img-rounded" id="codeWebsite"> <!--codeChris Website-->
+      <li class="topSpace website img-rounded fadeOnProject" id="codeWebsite"> <!--codeChris Website-->
         <p>
           <h3>CodeChris Website</h3>
         &nbsp Responsive website layout useing Bootstrap framework, Html, and CSS.  Website delivers basic information and links for Chris Marlowe.
@@ -239,7 +241,7 @@
       </li>
       <li>&nbsp</li>
 
-      <li class="topSpace website img-rounded" id="animWebsite"><!--marlow Animation-->
+      <li class="topSpace website img-rounded fadeOnProject" id="animWebsite"><!--marlow Animation-->
       	<p>
       		<h3>Animation Website</h3> 
         &nbsp Website created via Adobe Muse. Includes additional javascript for non-traditional features not normally permitted in a Muse  built website.
@@ -249,19 +251,16 @@
           <a href="http://github.com/keyFrameM/portfolio" target="_blank" type="submit" class="btn btn btn-default btn-group btn-group-xs disabled" style="width:200px;"><span class="glyphicon glyphicon-folder-open"></span> &nbsp View SourceCode</a>
       </div>  
       </li>
-    </ul>		
+	 </ul>
   </div> 
-  <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div> 
 </div>
 
 <!--Knowledge-->
 <div class= "row">
-  <div class="container">
-  <div class="col-xs-1 col-sm-1 col-md-3 col-lg-3"></div>
-  <div class="knowledge col-xs-11 col-sm-4 col-md-3 col-lg-3" id ="knowledge">
+  <div class="knowledge ccol-xs-offset-1 col-lg-offset-3 col-xs-11 col-lg-6 " id ="knowledge">
     <h2 class="col-xs-12">Knowledge</h2>
     <article>
-      <ul>
+      <ul class="text-center">
         <h3>WEB</h3>
           <li><p>-HTML / HTML5 / CSS/<br>
             -BootStrap</p></li>
@@ -269,9 +268,8 @@
            <li><p><a href="https://github.com/keyFrameM">-JavaScript/ Jquery / Coffee Script</a><br>
           -Node.js<br>
           -VBA / VBScript<br>
-          -Java<br>
-          -Android<br>
-          -Python<br>
+          -Java (Android)<br>
+          -XML (Android)<br>
         </p></li>
         <h3>Bonus</h3>
           <li><a href="https://github.com/keyFrameM"><p>-GitHub</a><br>
@@ -283,22 +281,10 @@
       </ul>
     </article>  
   </div>
-
-  <div class="knowledge col-xs-12 col-sm-4 col-md-3 col-lg-4" id="knowledge">
-    <h2>Also Learning</h2>
-    <article>
-      <ul>
-        <li><h3></i>Android<h3></li>
-      </ul>
-    </article>  
- </div>
-<div class="col-xs-12 col-sm-1 col-md-1 col-lg-3"></div>
-</div>
 </div>
 
 
 <!-- Experience-->
-<div class="container">
 <div class="row">
     <div class="col-xs-1 col-sm-1 col-md-1 col-lg-2"></div>
     
@@ -326,7 +312,7 @@
     
     <div class="col-xs-12 col-sm-1 col-md-2 col-lg-2" STYLE="height:100px"></div>
 </div>
-</div>
+
 
 <!--footer-->
 <div class="row">
