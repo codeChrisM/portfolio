@@ -35,6 +35,19 @@ $(window).scroll(function(){
     	console.log("Projects added");
     }
 
+    if(wScroll > $('.fadeOnWebsite').offset().top-($(window).height()/ 1.2)) {
+    	
+    	$('.fadeOnWebsite').each(function(i){
+    		setTimeout(function(){
+    			$('.fadeOnWebsite').eq(i).addClass('is-showingWebsite');
+    		}, 300 * (i+2));
+    	})
+    	/*var opacity = (wScroll - $('.fadeOnProject').offset().top+ 400 ) / (wScroll/6)
+    	$('.fadeOnProject').addClass('is-showingProject');
+    	console.log("class added Project");*/
+    	console.log("Projects added");
+    }
+
 
 	if(wScroll > $('#knowledge').offset().top-($(window).height()/ 1.2)) {
     	

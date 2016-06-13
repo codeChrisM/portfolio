@@ -258,6 +258,19 @@ footer p, footer h3{
        transition: all 0.5s ease-in-out;
        transform: translateX(0px);
     }
+.fadeOnWebsite{
+  position: relative;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+  transform: translateX(-100px);
+}
+
+.is-showingWebsite{
+      opacity: 1;
+       transition: all 0.5s ease-in-out;
+       transform: translateX(0px);
+    }
 
 .fadeOnIconRow{
   position: relative;
