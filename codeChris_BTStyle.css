@@ -321,4 +321,13 @@ footer p, footer h3{
        transform: translateX(0px);
     }
 
+.btn-primary:hover {
+    color: #fff;
+    background-color: #719bd2;
+  }
 
+.btn-primary {
+    color: #fff;
+    background-color: #719bd2;
+    border-color: #719bd2;
+  }
