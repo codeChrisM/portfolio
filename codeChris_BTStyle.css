@@ -210,6 +210,26 @@ section{
     -webkit-transform: scale(.7);
 }
 
+.project_thumb {
+  margin-top: 8px;
+  background-color: #e3ebeb;
+    -webkit-transition: .3s;
+
+
+}
+
+
+.project_thumb:nth-child(1):hover {
+    top: -5px;
+    -webkit-transform: scale(1.1);
+
+}
+
+.project_thumb:nth-child(1):active {
+    -webkit-transform: scale(.7);
+
+}
+
 footer{
 	height: 100px;
 	margin-bottom: 0px;
