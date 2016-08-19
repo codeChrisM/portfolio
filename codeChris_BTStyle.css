@@ -85,6 +85,8 @@ body{
 	font-weight: bold;
 	font-size: 180%
 }
+
+
 h2{
 	font-weight: bold;
 	font-size: 40px;
@@ -101,7 +103,7 @@ p{
 }
 
 #Projects{
-	margin-top: 30px;
+	margin-top: 3%;
 	margin-bottom: 10px;
 }
 #Projects ul li{
@@ -120,11 +122,46 @@ p{
 	padding-top: 50px;
 }
 
+#aboutMe{
+  margin-top: 3%;
+  margin-bottom: 1%;
+
+}
+
 #aboutMe article{
 	padding-top: 50px;
 	padding-bottom: 5px;
 }
 
+.aboutMeDetails{
+  font-size: 17px;
+  font-weight: 800;
+  float: center;
+}
+
+.intrinsic-container {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+}
+ 
+/* 16x9 Aspect Ratio */
+.intrinsic-container-16x9 {
+  padding-bottom: 56.25%;
+}
+ 
+/* 4x3 Aspect Ratio */
+.intrinsic-container-4x3 {
+  padding-bottom: 75%;
+}
+ 
+.intrinsic-container iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 .knowledge article h2{
 	text-align: center;
@@ -183,6 +220,10 @@ ul{
 section{
 	margin: 2% 2%;
 	text-align: center;
+}
+
+#bio{
+  margin-top: 5%;
 }
 
 #bioPic{
