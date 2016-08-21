@@ -16,24 +16,9 @@ body{
     float: none;
 }
 
-.topSpace {
-    padding-top: 0px;
-    margin-top: -5px;
-}
 
 
-
-.website{
-	background-color: ;
-	padding-left: 5px;
-	background: ; /* For browsers that do not support gradients */
-
-}
-.webApps{
-	padding-left: 5px;
-	background: ; /* For browsers that do not support gradients */ }
-
-  .navbar-default {
+.navbar-default {
     background-color: #6c9ce4;
     border-color: #696969;
     border-style: solid;
@@ -41,12 +26,7 @@ body{
     font-size: 18px;
     letter-spacing: 1px;
 }
-.dropdown-menu{
-	background-color: #e3ebeb;
-}
-.open ul > li >a {
- background-color: #e3ebeb;
-}
+
 
   .dropdown-menu > li > a:hover,
   .dropdown-menu > li > a:focus {
@@ -54,11 +34,7 @@ body{
    text-decoration: none;
   background-color: #6c9ce4;  /*change color of links in drop down here*/
    }
-   .dropdown-menu ul > li > a{
-   	color: #fff;
-   text-decoration: none;
-  background-color: green;  
-   }
+   
 
  .nav > li > a:hover,
  .nav > li > a:focus {
@@ -112,11 +88,6 @@ p{
 	font-size: 18px;
   margin-bottom: 5%;
 }
-#logoBar{
-	margin-left: 10%;
-	padding-top: 5px;
-}
-
 
 #knowledge{
 	padding-top: 50px;
@@ -128,10 +99,6 @@ p{
 
 }
 
-#aboutMe article{
-	padding-top: 50px;
-	padding-bottom: 5px;
-}
 
 .aboutMeDetails{
   font-size: 17px;
@@ -139,33 +106,8 @@ p{
   float: center;
 }
 
-.intrinsic-container {
-  position: relative;
-  height: 0;
-  overflow: hidden;
-}
- 
-/* 16x9 Aspect Ratio */
-.intrinsic-container-16x9 {
-  padding-bottom: 56.25%;
-}
- 
-/* 4x3 Aspect Ratio */
-.intrinsic-container-4x3 {
-  padding-bottom: 75%;
-}
- 
-.intrinsic-container iframe {
-  position: absolute;
-  top:0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
 
-.knowledge article h2{
-	text-align: center;
-}
+
 
 
 #experience ul{
@@ -202,15 +144,7 @@ a:hover{
 	color:#6c9ce4;
 }
 
-.current:visited {
-    color: #696969;
-}
-#navIcon{
-	display:hidden;
-	width:40px;
-	height: 40px;
-	background: url(http://www.shoredreams.net/wp-content/uploads/2014/02/show-menu-icon.png) center;
-}
+
 a:hover #navIcon{
 	border-radius:4px 4px 0 0;
 }
@@ -295,98 +229,6 @@ footer p, footer h3{
 }
 
 
-
-
-.fadeOn{
-  position: relative;
-  opacity: 0;
-  transition: all 0.3s ease-in-out;
-  border-radius: 10px;
-  overflow: hidden;
-
-}
-.is-showing {
-      opacity: 1;
-      background-color: transparent ;
-       transition: all 0.5s ease-in-out;
-    }
-
-.fadeOnProject{
-  position: relative;
-  opacity: 0;
-  transition: all 0.3s ease-in-out;
-  overflow: hidden;
-  transform: translateX(-100px);
-}
-
-.is-showingProject {
-      opacity: 1;
-       transition: all 0.5s ease-in-out;
-       transform: translateX(0px);
-    }
-.fadeOnWebsite{
-  position: relative;
-  opacity: 0;
-  transition: all 0.3s ease-in-out;
-  overflow: hidden;
-  transform: translateX(-100px);
-}
-
-.is-showingWebsite{
-      opacity: 1;
-       transition: all 0.5s ease-in-out;
-       transform: translateX(0px);
-    }
-
-.fadeOnIconRow{
-  position: relative;
-  opacity: 0;
-  transition: all 0.3s ease-in-out;
-  border-radius: 10px;
-  overflow: hidden;
-  transform: translateX(-50px);
-
-
-}
-.is-showingIconRow{
-      opacity: 1;
-      background-color: transparent ;
-      transition: all 0.5s ease-in-out;
-      margin-left: 1%;
- 
-    }
-
-.fadeOnKnowledge{
-  position: relative;
-  opacity: 0;
-  transition: all 0.3s ease-in-out;
-  border-radius: 10px;
-  overflow: hidden;
-  transform: translateY(-100px);
-}
-
-.is-showingKnowledge {
-      opacity: 1;
-      background-color: transparent ;
-       transition: all 0.5s ease-in-out;
-       transform: translateY(0px);
-    }
-
-.fadeOnExperience{
-  position: relative;
-  opacity: 0;
-  transition: all 0.3s ease-in-out;
-
-  overflow: hidden;
-  transform: translateX(-100px);
-}
-
-.is-showingExperience{
-      opacity: 1;
-      background-color: transparent ;
-       transition: all 0.5s ease-in-out;
-       transform: translateX(0px);
-    }
 
 .btn-primary:hover {
     color: #fff;
