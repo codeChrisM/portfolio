@@ -3,7 +3,9 @@ body{
 }
 
 
-
+.webappthumb{
+	margin: 0 auto;
+}
 
 @font-face {
      font-family: Varela-Regular;
