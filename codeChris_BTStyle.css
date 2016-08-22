@@ -70,6 +70,12 @@ h2{
 	font-size: 40px;
 	color: #696969;	
 }
+
+.knh2{
+	font-weight: normal;
+	font-size: 30px;
+}
+
 h3{
 	font-weight: bold;
 	font-size: 18px;
@@ -81,7 +87,7 @@ p{
 }
 
 #Projects{
-	margin-top: 3%;
+	padding-top: 3%;
 	margin-bottom: 10px;
 }
 #Projects ul li{
@@ -92,11 +98,16 @@ p{
 }
 
 #knowledge{
-	padding-top: 50px;
+	padding-top: 1%;
 }
 
 #aboutMe{
-  margin-top: 3%;
+  padding-top: 3%;
+  margin-bottom: 1%;
+
+}
+#experience{
+  padding-top: 3%;
   margin-bottom: 1%;
 
 }
@@ -140,6 +151,7 @@ p{
 	letter-spacing: 1px;
 	font-size: 18px;
 }
+
 
 
 a:hover{
@@ -242,3 +254,4 @@ footer p, footer h3{
     background-color: #719bd2;
     border-color: #719bd2;
   }
+
