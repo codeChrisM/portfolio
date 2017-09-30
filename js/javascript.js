@@ -1,10 +1,12 @@
+
+
+
  $(document).ready(function($) {
 
- 	$('.fadeOnIconRow').each(function(i){
-    		setTimeout(function(){
-    			$('.fadeOnIconRow').eq(i).addClass('is-showingIconRow');
-    		}, 100 * (i+2));
-        	console.log("document ready");
+    $('.fadeOnIconRow').each(function(i){
+            setTimeout(function(){
+                $('.fadeOnIconRow').eq(i).addClass('is-showingIconRow');
+            }, 100 * (i+1));
     	});
  	
 
@@ -14,6 +16,23 @@
 $(window).scroll(function(){
 
   var wScroll = $(this).scrollTop();
+//    console.log("scrolling " + wScroll);
+
+   if(wScroll > $('#Projects').offset().top-($(window).height() /1.5 )) {
+    console.log("sees projects");
+
+
+    $('.website').each(function(i){
+            setTimeout(function(){
+                $('.website').eq(i).addClass('websitePicOn');
+            }, 120 * (i+2));
+            console.log("document ready");
+        });
+   }
+
+
+});
+/*
 
     if(wScroll > $('#aboutMe').offset().top-($(window).height()/ 1.2)) {
     
@@ -32,9 +51,10 @@ $(window).scroll(function(){
     	/*var opacity = (wScroll - $('.fadeOnProject').offset().top+ 400 ) / (wScroll/6)
     	$('.fadeOnProject').addClass('is-showingProject');
     	console.log("class added Project");*/
+/*
     	console.log("Projects added");
     }
-
+/*
     if(wScroll > $('.fadeOnWebsite').offset().top-($(window).height()/ 1.2)) {
     	
     	$('.fadeOnWebsite').each(function(i){
@@ -45,10 +65,11 @@ $(window).scroll(function(){
     	/*var opacity = (wScroll - $('.fadeOnProject').offset().top+ 400 ) / (wScroll/6)
     	$('.fadeOnProject').addClass('is-showingProject');
     	console.log("class added Project");*/
+/*
     	console.log("Projects added");
     }
 
-
+/*
 	if(wScroll > $('#knowledge').offset().top-($(window).height()/ 1.2)) {
     	
     	$('.fadeOnKnowledge').each(function(i){
@@ -59,9 +80,10 @@ $(window).scroll(function(){
     	/*var opacity = (wScroll - $('.fadeOnProject').offset().top+ 400 ) / (wScroll/6)
     	$('.fadeOnProject').addClass('is-showingProject');
     	console.log("class added Project");*/
+/*
     	console.log("knowledge added");
     }
-
+/*
 	if(wScroll > $('#experience').offset().top-($(window).height()/ 1.2)) {
     	
     	$('.fadeOnExperience').each(function(i){
@@ -72,10 +94,12 @@ $(window).scroll(function(){
     	/*var opacity = (wScroll - $('.fadeOnProject').offset().top+ 400 ) / (wScroll/6)
     	$('.fadeOnProject').addClass('is-showingProject');
     	console.log("class added Project");*/
+/*
+
     	console.log("experience added");
 	}
 
 });
 
 
-
+*/
